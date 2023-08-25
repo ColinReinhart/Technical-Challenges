@@ -1,5 +1,5 @@
 def double_string(s)
-  s.chars.map { |c| c*2}.join
+  s.chars.map { |c| c*2 }.join
 end
 
 
