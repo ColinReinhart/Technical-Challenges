@@ -1,25 +1,24 @@
 ## Problems
-Title                                                                                      |Languages
---------------------------------------------------------------------------------------|:-------------------------------------:
-### Leetcode
-[Add Two Numbers][1]                                                                  |![rb]
-[Character Count][2]                                                                  |![rb]
-[Coin Change II][3]                                                                  |![rb]
-[Count Negative Numbers in a Sorted Matrix][4]                                                                  |![rb]
-[Largest Substring Without Repeating Characters][5]                                                                  |![rb]
-[Maximum Number of Moves In Grid][6]                                                                  |![rb]
-[Millions of Numbers][7]                                                                  |![rb]
-[Next Palindrome][8]                                                                  |![rb]
-[Search in Rotated Sorted Array][9]                                                                  |![rb]
-[Target and Payload][10]                                                                  |![rb]
-[Text Justification][11]                                                                  |![rb]
-[Top K Frequent Elements][12]                                                                  |![rb]
-[Two Sums][13]                                                                  |![rb]
-[Verify ISBN][14]                                                                  |![rb]
-[What Did I Order][15]                                                                  |![rb]
+|Challenge From: | Title                                                                                |Languages
+-----------------|--------------------------------------------------------------------------------------|:-----------------:
+Leetcode         |[Add Two Numbers][1]                                                                  |![rb]
+Leetcode         |[Character Count][2]                                                                  |![rb]
+Leetcode         |[Coin Change II][3]                                                                   |![rb]
+Leetcode         |[Count Negative Numbers in a Sorted Matrix][4]                                        |![rb]
+Leetcode         |[Largest Substring Without Repeating Characters][5]                                   |![rb]
+Leetcode         |[Maximum Number of Moves In Grid][6]                                                  |![rb]
+Leetcode         |[Millions of Numbers][7]                                                              |![rb]
+Leetcode         |[Next Palindrome][8]                                                                  |![rb]
+Leetcode         |[Search in Rotated Sorted Array][9]                                                   |![rb]
+Leetcode         |[Target and Payload][10]                                                              |![rb]
+Leetcode         |[Text Justification][11]                                                              |![rb]
+Leetcode         |[Top K Frequent Elements][12]                                                         |![rb]
+Leetcode         |[Two Sums][13]                                                                        |![rb]
+Leetcode         |[Verify ISBN][14]                                                                     |![rb]
+Leetcode         |[What Did I Order][15]                                                                |![rb]
+DailyRuby        |[Double Strings][1o]                                                                  |![rb]
 
-### Other
-[Double Strings][1o]                                                                    |![rb]
+
 
 [rb]:./ico/ruby.ico
 
