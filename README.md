@@ -16,6 +16,7 @@ Leetcode         |[Top K Frequent Elements][12]                                 
 Leetcode         |[Two Sums][13]                                                                        |![rb]
 Leetcode         |[Verify ISBN][14]                                                                     |![rb]
 Leetcode         |[What Did I Order][15]                                                                |![rb]
+Leetcode         |[Median of Two Sorted Arrays][16]                                                     |![rb]
 DailyRuby        |[Double Strings][1o]                                                                  |![rb]
 
 
@@ -37,5 +38,6 @@ DailyRuby        |[Double Strings][1o]                                          
 [13]:Leetcode/two_sums/
 [14]:Leetcode/verify_isbn/
 [15]:Leetcode/what_did_I_order/
+[16]:Leetcode/median_of_two_sorted_arrays/
 
 [1o]:Other/double_string/
