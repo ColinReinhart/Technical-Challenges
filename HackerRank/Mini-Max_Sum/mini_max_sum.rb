@@ -10,7 +10,10 @@ require 'stringio'
 #
 
 def miniMaxSum(arr)
-    require 'pry'; binding.pry
+    print arr.sum-arr.sort[-1]
+    print " "
+    print arr.sum-arr.sort[0]
 end
 
-miniMaxSum([1, 3, 5, 7, 9])
+# miniMaxSum([1, 3, 5, 7, 9])
+miniMaxSum([7, 69, 2, 221, 8974])
