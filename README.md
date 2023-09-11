@@ -20,6 +20,7 @@ Leetcode         |[Median of Two Sorted Arrays][16]                             
 Leetcode         |[Pascals Triangle][17]                                                                |![rb]
 Leetcode         |[Group the People Given the Group Size They Blong To][18]                             |![rb]
 DailyRuby        |[Double Strings][1o]                                                                  |![rb]
+HackerRank       |[Plus Minus][1h]                                                                      |![rb]
 
 
 
@@ -45,3 +46,5 @@ DailyRuby        |[Double Strings][1o]                                          
 [18]:Leetcode/group_the_people_given_the_group_size_they_belong_to/
 
 [1o]:Other/double_string/
+
+[1h]:HackerRank/Plus_Minus/
