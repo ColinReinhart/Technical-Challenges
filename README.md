@@ -17,6 +17,7 @@ Leetcode         |[Two Sums][13]                                                
 Leetcode         |[Verify ISBN][14]                                                                     |![rb]
 Leetcode         |[What Did I Order][15]                                                                |![rb]
 Leetcode         |[Median of Two Sorted Arrays][16]                                                     |![rb]
+Leetcode         |[Pascals Triangle][17]                                                                |![rb]
 DailyRuby        |[Double Strings][1o]                                                                  |![rb]
 
 
@@ -39,5 +40,6 @@ DailyRuby        |[Double Strings][1o]                                          
 [14]:Leetcode/verify_isbn/
 [15]:Leetcode/what_did_I_order/
 [16]:Leetcode/median_of_two_sorted_arrays/
+[17]:Leetcode/pascals_triangle/
 
 [1o]:Other/double_string/
