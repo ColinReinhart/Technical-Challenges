@@ -21,6 +21,7 @@ Leetcode         |[Pascals Triangle][17]                                        
 Leetcode         |[Group the People Given the Group Size They Blong To][18]                             |![rb]
 DailyRuby        |[Double Strings][1o]                                                                  |![rb]
 HackerRank       |[Plus Minus][1h]                                                                      |![rb]
+HackerRank       |[Min-Max Sum][2h]                                                                     |![rb]
 
 
 
@@ -48,3 +49,4 @@ HackerRank       |[Plus Minus][1h]                                              
 [1o]:Other/double_string/
 
 [1h]:HackerRank/Plus_Minus/
+[1h]:HackerRank/Min-Max_Sum/
