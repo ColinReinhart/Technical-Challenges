@@ -2,21 +2,25 @@
 # @return {Integer[][]}
 def group_the_people(group_sizes)
   output = []
-  temp_group = []
-  group_sizes.each_with_index do |s, i|
-    if s == 1
-      output << [i]
-    elsif temp_group.size < s
-      temp_group << i
-      if temp_group.size == s
-        output << temp_group
+  hash = group_sizes.map.with_index { |s, i| [i, s]}.to_h
+  grouped = hash.group_by { |k, v| v }
+  grouped.map do |group|
+    if group[0] == group[1].count
+      group[1..-1].each do |pair|
+        output << pair.to_h.keys
       end
-    elsif temp_group.size == s
-      temp_group = [i]
-    else temp_group.size > s
+    else
+      x = group[0]
+      group[1..-1].each do |pair|
+        array = pair.to_h.keys.each_slice(x).to_a
+        array.each do |arr|
+          output << arr
+        end
+      end
     end
   end
-  return output
+  output
 end
 
 p group_the_people([3,3,3,3,3,1,3])
+p group_the_people([2,1,3,3,3,2])
