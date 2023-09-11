@@ -18,6 +18,7 @@ Leetcode         |[Verify ISBN][14]                                             
 Leetcode         |[What Did I Order][15]                                                                |![rb]
 Leetcode         |[Median of Two Sorted Arrays][16]                                                     |![rb]
 Leetcode         |[Pascals Triangle][17]                                                                |![rb]
+Leetcode         |[Group the People Given the Group Size They Blong To][18]                             |![rb]
 DailyRuby        |[Double Strings][1o]                                                                  |![rb]
 
 
@@ -41,5 +42,6 @@ DailyRuby        |[Double Strings][1o]                                          
 [15]:Leetcode/what_did_I_order/
 [16]:Leetcode/median_of_two_sorted_arrays/
 [17]:Leetcode/pascals_triangle/
+[18]:Leetcode/group_the_people_given_the_group_size_they_belong_to/
 
 [1o]:Other/double_string/
