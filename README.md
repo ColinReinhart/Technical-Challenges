@@ -53,4 +53,4 @@ HackerRank       |[Sparse Arrays][4h]                                           
 [1h]:HackerRank/Plus_Minus/
 [2h]:HackerRank/Min-Max_Sum/
 [3h]:HackerRank/Time_Conversion/
-[4h]:HackerRank/Sparce_Arrays/
+[4h]:HackerRank/Sparse_Arrays/
