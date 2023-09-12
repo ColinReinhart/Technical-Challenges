@@ -23,6 +23,7 @@ DailyRuby        |[Double Strings][1o]                                          
 HackerRank       |[Plus Minus][1h]                                                                      |![rb]
 HackerRank       |[Min-Max Sum][2h]                                                                     |![rb]
 HackerRank       |[Time Conversion][3h]                                                                 |![rb]
+HackerRank       |[Sparse Arrays][4h]                                                                   |![rb]
 
 
 
@@ -52,3 +53,4 @@ HackerRank       |[Time Conversion][3h]                                         
 [1h]:HackerRank/Plus_Minus/
 [2h]:HackerRank/Min-Max_Sum/
 [3h]:HackerRank/Time_Conversion/
+[4h]:HackerRank/Sparce_Arrays/
