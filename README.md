@@ -55,4 +55,4 @@ HackerRank       |[Lonely Integer][5h]                                          
 [2h]:HackerRank/Min-Max_Sum/
 [3h]:HackerRank/Time_Conversion/
 [4h]:HackerRank/Sparse_Arrays/
-[5h]:HackerRank/Lonley_Integer/
+[5h]:HackerRank/Lonely_Integer/
