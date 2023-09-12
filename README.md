@@ -22,6 +22,7 @@ Leetcode         |[Group the People Given the Group Size They Blong To][18]     
 DailyRuby        |[Double Strings][1o]                                                                  |![rb]
 HackerRank       |[Plus Minus][1h]                                                                      |![rb]
 HackerRank       |[Min-Max Sum][2h]                                                                     |![rb]
+HackerRank       |[Time Conversion][3h]                                                                 |![rb]
 
 
 
@@ -49,4 +50,5 @@ HackerRank       |[Min-Max Sum][2h]                                             
 [1o]:Other/double_string/
 
 [1h]:HackerRank/Plus_Minus/
-[1h]:HackerRank/Min-Max_Sum/
+[2h]:HackerRank/Min-Max_Sum/
+[3h]:HackerRank/Time_Conversion/
