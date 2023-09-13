@@ -12,8 +12,10 @@ def candy(ratings)
         pieces += 1
       end
     else
-      if c > ratings[i+1] || c > ratings[i-1]
-        pieces +=1
+      if c > ratings[i+1] && c < ratings[i-1]
+        pieces += 2
+      elsif c > ratings[i+1] || c > ratings[i-1]
+        pieces += 1
       end
     end
   end
