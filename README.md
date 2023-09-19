@@ -27,6 +27,7 @@ HackerRank       |[Min-Max Sum][2h]                                             
 HackerRank       |[Time Conversion][3h]                                                                 |![rb]
 HackerRank       |[Sparse Arrays][4h]                                                                   |![rb]
 HackerRank       |[Lonely Integer][5h]                                                                  |![rb]
+HackerRank       |[Pangrams][6h]                                                                        |![rb]
 
 
 
@@ -60,3 +61,4 @@ HackerRank       |[Lonely Integer][5h]                                          
 [3h]:HackerRank/Time_Conversion/
 [4h]:HackerRank/Sparse_Arrays/
 [5h]:HackerRank/Lonely_Integer/
+[6h]:HackerRank/Pangrams/
