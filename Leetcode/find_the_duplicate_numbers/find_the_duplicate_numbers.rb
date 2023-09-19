@@ -1,5 +1,12 @@
 def find_duplicate(nums)
-  require 'pry'; binding.pry
+  array = []
+  nums.each do |num|
+    if array.include?(num)
+      return num
+    else
+      array << num
+    end
+  end
 end
 
 p find_duplicate([1,3,4,2,2])
