@@ -1,12 +1,6 @@
 def find_duplicate(nums)
-  array = []
-  nums.each do |num|
-    if array.include?(num)
-      return num
-    else
-      array << num
-    end
-  end
+  hash = Hash.new(0)
+  nums.find { |num| (hash[num] += 1) == 2 }
 end
 
 p find_duplicate([1,3,4,2,2])
