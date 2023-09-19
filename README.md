@@ -20,6 +20,7 @@ Leetcode         |[Median of Two Sorted Arrays][16]                             
 Leetcode         |[Pascals Triangle][17]                                                                |![rb]
 Leetcode         |[Group the People Given the Group Size They Blong To][18]                             |![rb]
 Leetcode         |[The K Weakest Rows in a Matrix][19]                                                  |![rb]
+Leetcode         |[Find the DUplicate Numbers][20]                                                      |![rb]
 DailyRuby        |[Double Strings][1o]                                                                  |![rb]
 HackerRank       |[Plus Minus][1h]                                                                      |![rb]
 HackerRank       |[Min-Max Sum][2h]                                                                     |![rb]
@@ -50,6 +51,7 @@ HackerRank       |[Lonely Integer][5h]                                          
 [17]:Leetcode/pascals_triangle/
 [18]:Leetcode/group_the_people_given_the_group_size_they_belong_to/
 [19]:Leetcode/the_k_weakest_rows_in_a_matrix/
+[20]:Leetcode/find_the_duplicate_numbers/
 
 [1o]:Other/double_string/
 
