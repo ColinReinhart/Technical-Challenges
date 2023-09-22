@@ -29,6 +29,7 @@ HackerRank       |[Time Conversion][3h]                                         
 HackerRank       |[Sparse Arrays][4h]                                                                   |![rb]
 HackerRank       |[Lonely Integer][5h]                                                                  |![rb]
 HackerRank       |[Pangrams][6h]                                                                        |![rb]
+HackerRank       |[Sales by Match][7h]                                                                  |![rb]
 
 
 
@@ -64,3 +65,4 @@ HackerRank       |[Pangrams][6h]                                                
 [4h]:HackerRank/Sparse_Arrays/
 [5h]:HackerRank/Lonely_Integer/
 [6h]:HackerRank/Pangrams/
+[7h]:HackerRank/Sales_By_Match/
