@@ -20,9 +20,10 @@ Leetcode         |[Median of Two Sorted Arrays][16]                             
 Leetcode         |[Pascals Triangle][17]                                                                |![rb]
 Leetcode         |[Group the People Given the Group Size They Blong To][18]                             |![rb]
 Leetcode         |[The K Weakest Rows in a Matrix][19]                                                  |![rb]
-Leetcode         |[Find the DUplicate Numbers][20]                                                      |![rb]
+Leetcode         |[Find the Duplicate Numbers][20]                                                      |![rb]
 Leetcode         |[Add Digits][21]                                                                      |![rb]
 Leetcode         |[Find the Difference][22]                                                             |![rb]
+Leetcode         |[Sort Array By Parity][23]                                                            |![rb]
 DailyRuby        |[Double Strings][1o]                                                                  |![rb]
 HackerRank       |[Plus Minus][1h]                                                                      |![rb]
 HackerRank       |[Min-Max Sum][2h]                                                                     |![rb]
@@ -58,6 +59,7 @@ HackerRank       |[Sales by Match][7h]                                          
 [20]:Leetcode/find_the_duplicate_numbers/
 [21]:Leetcode/add_digits/
 [22]:Leetcode/find_the_difference/
+[23]:Leetcode/sort_array_by_parity/
 
 [1o]:Other/double_string/
 
