@@ -1,7 +1,13 @@
 # @param {Integer[]} nums
 # @return {Boolean}
 def is_monotonic(nums)
-  require 'pry'; binding.pry
+  if nums == nums.sort
+    return true
+  elsif nums == nums.sort_by { |num| -num}
+    return true
+  else
+    return false
+  end
 end
 
 p is_monotonic([1,2,2,3])
