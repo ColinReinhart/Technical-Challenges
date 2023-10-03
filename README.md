@@ -25,7 +25,7 @@ Leetcode         |[Add Digits][21]                                              
 Leetcode         |[Find the Difference][22]                                                             |![rb]
 Leetcode         |[Sort Array By Parity][23]                                                            |![rb]
 Leetcode         |[Monotonic Array][24]                                                                 |![rb]
-Leetcode         |[Number of Good Pairs][25]                                                                 |![rb]
+Leetcode         |[Number of Good Pairs][25]                                                            |![rb]
 DailyRuby        |[Double Strings][1o]                                                                  |![rb]
 HackerRank       |[Plus Minus][1h]                                                                      |![rb]
 HackerRank       |[Min-Max Sum][2h]                                                                     |![rb]
@@ -63,7 +63,7 @@ HackerRank       |[Sales by Match][7h]                                          
 [22]:Leetcode/find_the_difference/
 [23]:Leetcode/sort_array_by_parity/
 [24]:Leetcode/monotonic_array/
-[24]:Leetcode/number_of_good_pairs
+[25]:Leetcode/number_of_good_pairs
 
 [1o]:Other/double_string/
 
