@@ -26,6 +26,7 @@ Leetcode         |[Find the Difference][22]                                     
 Leetcode         |[Sort Array By Parity][23]                                                            |![rb]
 Leetcode         |[Monotonic Array][24]                                                                 |![rb]
 Leetcode         |[Number of Good Pairs][25]                                                            |![rb]
+Leetcode         |[Determine if a Cell is Reachable at a Given Time][26]                                |![rb]
 DailyRuby        |[Double Strings][1o]                                                                  |![rb]
 HackerRank       |[Plus Minus][1h]                                                                      |![rb]
 HackerRank       |[Min-Max Sum][2h]                                                                     |![rb]
@@ -65,6 +66,7 @@ HackerRank       |[Ceasar Cipher][8h]                                           
 [23]:Leetcode/sort_array_by_parity/
 [24]:Leetcode/monotonic_array/
 [25]:Leetcode/number_of_good_pairs
+[26]:Leetcode/cell_is_reachable_in_given_time/
 
 [1o]:Other/double_string/
 
