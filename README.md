@@ -68,7 +68,7 @@ HackerRank       |[Ceasar Cipher][8h]                                           
 [24]:Leetcode/monotonic_array/
 [25]:Leetcode/number_of_good_pairs
 [26]:Leetcode/cell_is_reachable_in_given_time/
-[26]:Leetcode/maximum_element_after_decreasing_and_rearranging/
+[27]:Leetcode/maximum_element_after_decreasing_and_rearranging/
 
 [1o]:Other/double_string/
 
