@@ -2,25 +2,26 @@ def min_operations(nums)
   operation_count = 0
   hash = Hash.new(0)
   nums.each { |n| hash[n] += 1 }
-  if hash.keys.include?(1)
+  if hash.values.include?(1)
     return -1
   else
-    hash.keys.each do |k|
-      if k == 2
+    hash.values.each do |v|
+      until  v <= 4
+        v = v - 3
         operation_count += 1
-      elsif k == 3
+      end
+      if v == 4
+        operation_count += 2
+      elsif v == 3
         operation_count += 1
-      elsif k % 3 == 0
-        operation_count += k / 3
-      elsif k - 2 % 3 == 0
-        operation_count += k - 2 / 3 + 1
-      else k % 2 == 0
-        operation_count += k / 2
+      elsif v == 2
+        operation_count += 1
       end
     end
   end
   return operation_count
 end
 
-p min_operations([2,3,3,2,2,4,2,3,4])
-p min_operations([2,1,2,2,3,3])
+# p min_operations([2,3,3,2,2,4,2,3,4])
+# p min_operations([2,1,2,2,3,3])
+p min_operations([14,12,14,14,12,14,14,12,12,12,12,14,14,12,14,14,14,12,12])
