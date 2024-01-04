@@ -28,6 +28,7 @@ Leetcode         |[Monotonic Array][24]                                         
 Leetcode         |[Number of Good Pairs][25]                                                            |![rb]
 Leetcode         |[Determine if a Cell is Reachable at a Given Time][26]                                |![rb]
 Leetcode         |[Maximum Element After Decreasing and Rearranging][27]                                |![rb]
+Leetcode         |[Minimum Number of Operations to Make Array Empty][28]                                |![rb]
 DailyRuby        |[Double Strings][1o]                                                                  |![rb]
 HackerRank       |[Plus Minus][1h]                                                                      |![rb]
 HackerRank       |[Min-Max Sum][2h]                                                                     |![rb]
@@ -69,6 +70,7 @@ HackerRank       |[Ceasar Cipher][8h]                                           
 [25]:Leetcode/number_of_good_pairs
 [26]:Leetcode/cell_is_reachable_in_given_time/
 [27]:Leetcode/maximum_element_after_decreasing_and_rearranging/
+[28]:Leetcode/minimum_number_of_operations_to_make_an_array_empty/
 
 [1o]:Other/double_string/
 
