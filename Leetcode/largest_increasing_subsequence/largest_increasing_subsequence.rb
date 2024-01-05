@@ -1,7 +1,23 @@
 # @param {Integer[]} nums
 # @return {Integer}
 def length_of_lis(nums)
-  require 'pry'; binding.pry
+  biggest = 0
+  arr = []
+  nums.each do |n|
+    if arr == []
+      arr << n
+    elsif n > arr[-1]
+      arr << n
+    else n < arr[-1]
+      if arr.count > biggest
+        biggest = arr.count
+        arr = []
+      else
+        arr =[]
+      end
+    end
+  end
+  return biggest
 end
 
 p length_of_lis([10,9,2,5,3,7,101,18])
