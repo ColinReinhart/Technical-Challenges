@@ -30,6 +30,7 @@ Leetcode         |[Determine if a Cell is Reachable at a Given Time][26]        
 Leetcode         |[Maximum Element After Decreasing and Rearranging][27]                                |![rb]
 Leetcode         |[Minimum Number of Operations to Make Array Empty][28]                                |![rb]
 Leetcode         |[Number of Laser Beams in a Bank ][29]                                                |![rb]
+Leetcode         |[Number of Laser Beams in a Bank ][30]                                                |![py]
 DailyRuby        |[Double Strings][1o]                                                                  |![rb]
 HackerRank       |[Plus Minus][1h]                                                                      |![rb]
 HackerRank       |[Min-Max Sum][2h]                                                                     |![rb]
@@ -43,6 +44,7 @@ HackerRank       |[Ceasar Cipher][8h]                                           
 
 
 [rb]:./ico/ruby.ico
+[py]:./ico/python.ico
 
 [1]:Leetcode/add_two_numbers
 [2]:Leetcode/character_count
