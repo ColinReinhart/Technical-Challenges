@@ -1,25 +1,21 @@
 # @param {Integer[]} nums
 # @return {Integer}
 def length_of_lis(nums)
-  biggest = 0
-  arr = []
-  nums.each do |n|
-    if arr == []
-      arr << n
-    elsif n > arr[-1]
-      arr << n
-    else n < arr[-1]
-      if arr.count > biggest
-        biggest = arr.count
-        arr = []
-      else
-        arr =[]
+  sequences = []
+  temp = []
+  nums.each_with_index do |n, i|
+    temp << n
+    nums[i+1..-1].each do |num|
+      if num > temp[-1]
+        temp << num
       end
     end
+    sequences << temp.count
+    temp = []
   end
-  return biggest
+  return sequences.max
 end
 
 p length_of_lis([10,9,2,5,3,7,101,18])
-# p length_of_lis([0,1,0,3,2,3])
-# p length_of_lis([7,7,7,7,7,7,7])
+p length_of_lis([0,1,0,3,2,3])
+p length_of_lis([7,7,7,7,7,7,7])
