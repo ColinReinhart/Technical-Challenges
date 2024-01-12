@@ -1,8 +1,9 @@
 # @param {String} s
 # @return {Boolean}
 def halves_are_alike(s)
-  require 'pry'; binding.pry
+  half = s.length / 2
+  s[0..half-1].gsub(/[^aeiouAEIOU]/, '').length == s[half..-1].gsub(/[^aeiouAEIOU]/, '').length
 end
 
-p halves_are_alike("book")
-# p halves_are_alike("textbook") == false
+p halves_are_alike("book") == true
+p halves_are_alike("textbook") == false
