@@ -31,6 +31,7 @@ Leetcode         |[Maximum Element After Decreasing and Rearranging][27]        
 Leetcode         |[Minimum Number of Operations to Make Array Empty][28]                                |![rb]
 Leetcode         |[Number of Laser Beams in a Bank ][29]                                                |![rb]
 Leetcode         |[Number of Laser Beams in a Bank ][30]                                                |![py]
+Leetcode         |[Determine if String Halves Are Alike][31]                                            |![rb]
 DailyRuby        |[Double Strings][1o]                                                                  |![rb]
 HackerRank       |[Plus Minus][1h]                                                                      |![rb]
 HackerRank       |[Min-Max Sum][2h]                                                                     |![rb]
@@ -74,7 +75,9 @@ HackerRank       |[Ceasar Cipher][8h]                                           
 [26]:Leetcode/cell_is_reachable_in_given_time/
 [27]:Leetcode/maximum_element_after_decreasing_and_rearranging/
 [28]:Leetcode/minimum_number_of_operations_to_make_an_array_empty/
-[29]:Leetcode/number_of_beams/
+[29]:Leetcode/number_of_beams/number_of_beams.rb
+[30]:Leetcode/number_of_beams/number_of_beams.py
+[31]:Leetcode/determine_if_string_halves_are_alike/
 
 [1o]:Other/double_string/
 
