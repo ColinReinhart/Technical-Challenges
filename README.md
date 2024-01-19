@@ -32,7 +32,8 @@ Leetcode         |[Minimum Number of Operations to Make Array Empty][28]        
 Leetcode         |[Number of Laser Beams in a Bank- Ruby ][29]                                          |![rb]
 Leetcode         |[Number of Laser Beams in a Bank- Python ][30]                                        |![py]
 Leetcode         |[Determine if String Halves Are Alike- Ruby][31]                                      |![rb]
-Leetcode         |[Determine if String Halves Are Alike- Python][31]                                    |![rb]
+Leetcode         |[Determine if String Halves Are Alike- Python][31]                                    |![py]
+Leetcode         |[Minimun Falling Path][32]                                                            |![rb]
 DailyRuby        |[Double Strings][1o]                                                                  |![rb]
 HackerRank       |[Plus Minus][1h]                                                                      |![rb]
 HackerRank       |[Min-Max Sum][2h]                                                                     |![rb]
@@ -79,6 +80,7 @@ HackerRank       |[Ceasar Cipher][8h]                                           
 [29]:Leetcode/number_of_beams/number_of_beams.rb
 [30]:Leetcode/number_of_beams/number_of_beams.py
 [31]:Leetcode/determine_if_string_halves_are_alike/
+[32]:Leetcode/minimum_falling_path/
 
 [1o]:Other/double_string/
 
