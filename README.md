@@ -82,6 +82,7 @@ HackerRank       |[Ceasar Cipher][8h]                                           
 [30]:Leetcode/number_of_beams/number_of_beams.py
 [31]:Leetcode/determine_if_string_halves_are_alike/
 [32]:Leetcode/minimum_falling_path/
+[33]:Leetcode/divide_array_into_arrays_with_max_difference/
 
 [1o]:Other/double_string/
 
