@@ -39,6 +39,7 @@ Leetcode         |[Divide Array Into Arrays With Max Difference-Python][33]     
 Leetcode         |[Sequential Digits- Ruby][34]                                                         |![rb]
 Leetcode         |[Sequential Digits- Python][34]                                                       |![py]
 Leetcode         |[Group Anagrams][35]                                                                  |![rb]
+Leetcode         |[First Unique Character in a String][36]                                              |![rb]
 DailyRuby        |[Double Strings][1o]                                                                  |![rb]
 HackerRank       |[Plus Minus][1h]                                                                      |![rb]
 HackerRank       |[Min-Max Sum][2h]                                                                     |![rb]
@@ -89,6 +90,7 @@ HackerRank       |[Ceasar Cipher][8h]                                           
 [33]:Leetcode/divide_array_into_arrays_with_max_difference/
 [34]:Leetcode/sequential_digits/
 [35]:Leetcode/group_anagrams/
+[36]:Leetcode/first_unique_character_in_a_string/
 
 [1o]:Other/double_string/
 
