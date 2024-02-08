@@ -41,6 +41,7 @@ Leetcode         |[Sequential Digits- Python][34]                               
 Leetcode         |[Group Anagrams][35]                                                                  |![rb]
 Leetcode         |[First Unique Character in a String][36]                                              |![rb]
 Leetcode         |[Sort Characters by Frequency][37]                                                    |![rb]
+Leetcode         |[Perfect Squares][38]                                                                 |![rb]
 DailyRuby        |[Double Strings][1o]                                                                  |![rb]
 HackerRank       |[Plus Minus][1h]                                                                      |![rb]
 HackerRank       |[Min-Max Sum][2h]                                                                     |![rb]
@@ -93,6 +94,7 @@ HackerRank       |[Ceasar Cipher][8h]                                           
 [35]:Leetcode/group_anagrams/
 [36]:Leetcode/first_unique_character_in_a_string/
 [37]:Leetcode/sort_characters_by_frequency/
+[38]:Leetcode/perfect_squares/
 
 [1o]:Other/double_string/
 
