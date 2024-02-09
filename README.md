@@ -42,6 +42,7 @@ Leetcode         |[Group Anagrams][35]                                          
 Leetcode         |[First Unique Character in a String][36]                                              |![rb]
 Leetcode         |[Sort Characters by Frequency][37]                                                    |![rb]
 Leetcode         |[Perfect Squares][38]                                                                 |![rb]
+Leetcode         |[Largest Divisible Subset][39]                                                        |![rb]
 DailyRuby        |[Double Strings][1o]                                                                  |![rb]
 HackerRank       |[Plus Minus][1h]                                                                      |![rb]
 HackerRank       |[Min-Max Sum][2h]                                                                     |![rb]
@@ -95,6 +96,7 @@ HackerRank       |[Ceasar Cipher][8h]                                           
 [36]:Leetcode/first_unique_character_in_a_string/
 [37]:Leetcode/sort_characters_by_frequency/
 [38]:Leetcode/perfect_squares/
+[39]:Leetcode/largest_divisible_subset/
 
 [1o]:Other/double_string/
 
