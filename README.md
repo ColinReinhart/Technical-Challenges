@@ -57,6 +57,7 @@ HackerRank       |[Pangrams][6h]                                                
 HackerRank       |[Sales by Match][7h]                                                                  |![rb]
 HackerRank       |[Ceasar Cipher][8h]                                                                   |![rb]
 Other            |[Reverse String][ot]                                                                  |![rb]
+Other            |[Largest Number][ot]                                                                  |![rb]
 
 
 
@@ -117,3 +118,4 @@ Other            |[Reverse String][ot]                                          
 [8h]:HackerRank/ceasars_cipher/
 
 [ot]:Other/reverse_string
+[ot]:Other/largest_number/
