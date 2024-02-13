@@ -56,6 +56,7 @@ HackerRank       |[Lonely Integer][5h]                                          
 HackerRank       |[Pangrams][6h]                                                                        |![rb]
 HackerRank       |[Sales by Match][7h]                                                                  |![rb]
 HackerRank       |[Ceasar Cipher][8h]                                                                   |![rb]
+Other            |[Reverse String][ot]                                                                  |![rb]
 
 
 
@@ -114,3 +115,5 @@ HackerRank       |[Ceasar Cipher][8h]                                           
 [6h]:HackerRank/Pangrams/
 [7h]:HackerRank/Sales_By_Match/
 [8h]:HackerRank/ceasars_cipher/
+
+[ot]:Other/reverse_string
