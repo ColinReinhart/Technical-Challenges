@@ -113,4 +113,4 @@ Other            |[Reverse String][ot]                                          
 [7h]:HackerRank/Sales_By_Match/
 [8h]:HackerRank/ceasars_cipher/
 
-[o]:Other/reverse_string
+[ot]:Other/reverse_string
