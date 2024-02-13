@@ -44,7 +44,9 @@ Leetcode         |[Sort Characters by Frequency][37]                            
 Leetcode         |[Perfect Squares][38]                                                                 |![rb]
 Leetcode         |[Largest Divisible Subset-Ruby][39]                                                   |![rb]
 Leetcode         |[Largest Divisible Subset-Python][39]                                                 |![py]
-Leetcode         |[First Palindromic String][40]                                                        |![rb]
+Leetcode         |[Majority Element-Ruby][40]                                                           |![rb]
+Leetcode         |[Majority Element-Python][40]                                                         |![py]
+Leetcode         |[First Palindromic String][41]                                                        |![rb]
 DailyRuby        |[Double Strings][1o]                                                                  |![rb]
 HackerRank       |[Plus Minus][1h]                                                                      |![rb]
 HackerRank       |[Min-Max Sum][2h]                                                                     |![rb]
@@ -99,7 +101,8 @@ HackerRank       |[Ceasar Cipher][8h]                                           
 [37]:Leetcode/sort_characters_by_frequency/
 [38]:Leetcode/perfect_squares/
 [39]:Leetcode/largest_divisible_subset/
-[40]:Leetcode/first_palindromic_string/
+[40]:Leetcode/majority_element/
+[41]:Leetcode/first_palindromic_string/
 
 [1o]:Other/double_string/
 
