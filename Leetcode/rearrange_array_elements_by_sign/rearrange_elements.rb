@@ -1,24 +1,22 @@
 def rearrange_array(nums)
   neg = []
   pos = []
-  wip = []
+
   nums.each do |num|
-    if num.negative?
-      neg << num
-    else
-      pos << num
-    end
+    num.negative? ? neg << num : pos << num
   end
-  def combine(neg, pos, wip)
-    if neg == [] || pos == []
-      return wip
-    else
-      wip << pos.shift
-      wip << neg.shift
-      combine(neg, pos, wip)
-    end
+
+  wip = []
+
+  until neg.empty? || pos.empty?
+    wip << pos.shift
+    wip << neg.shift
   end
-  combine(neg, pos, wip)
+
+  wip.concat(neg) unless neg.empty?
+  wip.concat(pos) unless pos.empty?
+
+  wip
 end
 
 p rearrange_array([3,1,-2,-5,2,-4])
