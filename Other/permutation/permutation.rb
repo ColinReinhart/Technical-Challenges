@@ -1,35 +1,22 @@
 def permutation(str)
-  @split = str.split('')
-  @n = @split.count - 1
-  @arr = [str]
-  @size = @split.count
+  arr = str.is_a?(String) ? str.split('') : str
+  return [arr.join] if arr.empty?
 
-  if str.length < 2
-    arr << str
-    return str
-  end
+  permutations = []
 
-  def modify_and_check(split, n, size)
-    i = n
-    (size - 1).times do
-      split.insert(i -1, split[i])
-      split.delete_at(i + 1)
-      @arr << split.join
-      i -= 1
-    end
-    if n > -1
-      @n -= 1
-      split.insert(n + 1, split[i])
-      split.delete_at(i)
-      require 'pry'; binding.pry
-      modify_and_check(@split, @n, @size)
-    else
-      return @arr.uniq
+  arr.each_with_index do |elem, index|
+    next if index > 0 && arr[index] == arr[index - 1]
+
+    remaining_elements = arr[0...index] + arr[index+1..-1]
+
+    permutation(remaining_elements.join('')).each do |perm|
+      permutations << [elem] + [perm]
     end
   end
-  modify_and_check(@split, @n, @size)
-  @arr
+  permutations
 end
+
+puts permutation("aabc")
 
 # p permutation('abc')
 p permutation('aabc')
