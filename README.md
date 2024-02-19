@@ -49,7 +49,8 @@ Leetcode         |[Majority Element-Python][40]                                 
 Leetcode         |[First Palindromic String][41]                                                        |![rb]
 Leetcode         |[Find Polygon With the Largest Perimeter][42]                                         |![rb]
 Leetcode         |[Least Number of Unique Integers After K Removals][43]                                |![rb]
-Leetcode         |[Power of Two][44]                                                                    |![rb]
+Leetcode         |[Power of Two- Ruby][44]                                                              |![rb]
+Leetcode         |[Power of Two- Python][44]                                                            |![py]
 DailyRuby        |[Double Strings][1o]                                                                  |![rb]
 HackerRank       |[Plus Minus][1h]                                                                      |![rb]
 HackerRank       |[Min-Max Sum][2h]                                                                     |![rb]
@@ -60,7 +61,7 @@ HackerRank       |[Pangrams][6h]                                                
 HackerRank       |[Sales by Match][7h]                                                                  |![rb]
 HackerRank       |[Ceasar Cipher][8h]                                                                   |![rb]
 Other            |[Reverse String][ot]                                                                  |![rb]
-Other            |[Largest Number][ot1]                                                                  |![rb]
+Other            |[Largest Number][ot1]                                                                 |![rb]
 
 
 
