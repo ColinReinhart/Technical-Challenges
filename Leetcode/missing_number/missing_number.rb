@@ -1,5 +1,7 @@
 def missing_number(nums)
-  require 'pry'; binding.pry
+  n = nums.length
+  arr = (0..n).to_a
+  arr.each { |num| return num if !nums.include?(num) }
 end
 
 p missing_number([3,0,1])
