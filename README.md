@@ -51,6 +51,7 @@ Leetcode         |[Find Polygon With the Largest Perimeter][42]                 
 Leetcode         |[Least Number of Unique Integers After K Removals][43]                                |![rb]
 Leetcode         |[Power of Two- Ruby][44]                                                              |![rb]
 Leetcode         |[Power of Two- Python][44]                                                            |![py]
+Leetcode         |[Missing Number][45]                                                                  |![rb]
 DailyRuby        |[Double Strings][1o]                                                                  |![rb]
 HackerRank       |[Plus Minus][1h]                                                                      |![rb]
 HackerRank       |[Min-Max Sum][2h]                                                                     |![rb]
@@ -112,6 +113,7 @@ Other            |[Largest Number][ot1]                                         
 [42]:Leetcode/find_polygon_with_the_largest_perimeter/
 [43]:Leetcode/least_number_of_unique_integers_after_k_removals/
 [44]:Leetcode/power_of_two/
+[45]:Leetcode/missing_number/
 
 [1o]:Other/double_string/
 
