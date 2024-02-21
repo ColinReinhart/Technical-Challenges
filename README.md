@@ -130,7 +130,7 @@ Other            |[Largest Number][ot1]                                         
 [7h]:HackerRank/Sales_By_Match/
 [8h]:HackerRank/ceasars_cipher/
 [9h]:HackerRank/fizbuzz/
-[9h]:HackerRank/find_median/
+[10h]:HackerRank/find_median/
 
 [ot]:Other/reverse_string
 [ot1]:Other/largest_number/
