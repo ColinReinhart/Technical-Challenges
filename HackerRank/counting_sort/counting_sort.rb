@@ -11,16 +11,16 @@ require 'stringio'
 #
 
 def countingSort(arr)
-   n = arr.count
-   array = []
+   require 'pry'; binding.pry
+   array = (0..arr.max).to_a
    hash = {}
-   count = 0
-   n.times do
-      hash[count] = 0
-      count +=1
-   end
-   arr.map do |num|
-    hash[num] += 1
+   array.each { |x| hash[x] = 0 }
+   array.each do |num|
+      arr.each do |n|
+         if n == num
+            hash[n] += 1
+         end
+      end
    end
    hash.values
 end
