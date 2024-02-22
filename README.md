@@ -65,6 +65,7 @@ HackerRank       |[Sales by Match][7h]                                          
 HackerRank       |[Ceasar Cipher][8h]                                                                   |![rb]
 HackerRank       |[FizzBuzz][9h]                                                                        |![rb]
 HackerRank       |[Find Median][10h]                                                                    |![rb]
+HackerRank       |[Flipping Matrix][11h]                                                                |![rb]
 Other            |[Reverse String][ot]                                                                  |![rb]
 Other            |[Largest Number][ot1]                                                                 |![rb]
 
@@ -133,6 +134,7 @@ Other            |[Largest Number][ot1]                                         
 [8h]:HackerRank/ceasars_cipher/
 [9h]:HackerRank/fizbuzz/
 [10h]:HackerRank/find_median/
+[11h]:HackerRank/flipping_matrix/
 
 [ot]:Other/reverse_string
 [ot1]:Other/largest_number/
