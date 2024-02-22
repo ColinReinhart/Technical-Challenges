@@ -53,6 +53,7 @@ Leetcode         |[Power of Two- Ruby][44]                                      
 Leetcode         |[Power of Two- Python][44]                                                            |![py]
 Leetcode         |[Missing Number][45]                                                                  |![rb]
 Leetcode         |[Bitwise AND of Numbers Range][46]                                                    |![rb]
+Leetcode         |[Find the Town Judge][47]                                                             |![rb]
 DailyRuby        |[Double Strings][1o]                                                                  |![rb]
 HackerRank       |[Plus Minus][1h]                                                                      |![rb]
 HackerRank       |[Min-Max Sum][2h]                                                                     |![rb]
@@ -118,6 +119,7 @@ Other            |[Largest Number][ot1]                                         
 [44]:Leetcode/power_of_two/
 [45]:Leetcode/missing_number/
 [46]:Leetcode/bitwise_and_of_numbers_range/
+[47]:Leetcode/find_the_town_judge/
 
 [1o]:Other/double_string/
 
