@@ -6,14 +6,14 @@ A falling path starts at any element in the first row and chooses the element in
 
 Example 1:
 
-[falling1]
+![falling1]
 
 Input: matrix = [[2,1,3],[6,5,4],[7,8,9]]
 Output: 13
 Explanation: There are two falling paths with a minimum sum as shown.
 Example 2:
 
-[falling2]
+![falling2]
 
 Input: matrix = [[-19,57],[-40,-5]]
 Output: -59
