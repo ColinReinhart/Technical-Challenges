@@ -53,3 +53,4 @@ meetings[i].length == 3
 xi != yi
 1 <= timei <= 105
 1 <= firstPerson <= n - 1
+
