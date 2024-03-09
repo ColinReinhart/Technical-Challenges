@@ -10,6 +10,3 @@ end
 
 p get_common([1,2,3], [2,4])
 p get_common([1,2,3,6], [2,3,4,5])
-
-
-# common << nums1.each { |num| nums2.each { |n| n == num ? n : 0}}
