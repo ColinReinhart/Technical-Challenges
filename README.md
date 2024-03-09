@@ -128,6 +128,7 @@ Other            |[Largest Number][ot1]                                         
 [48]:Leetcode/cheapest_flights_within_k_stops/
 [49]:Leetcode/linked_list_cycle/
 [50]:Leetcode/count_elements_with_maximum_frequency/
+[51]:Leetcode/minimum_common_element/
 
 [1o]:Other/double_string/
 
