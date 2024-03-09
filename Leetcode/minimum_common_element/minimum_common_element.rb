@@ -1,13 +1,11 @@
+require 'set'
+
 def get_common(nums1, nums2)
-  common = []
-  nums1.each do |num|
-    nums2.each do |n|
-      if n == num
-        common << n
-      end
-    end
+  set1 = nums1.to_set
+  nums2.each do |num|
+    return num if set1.include?(num)
   end
-  common.min
+  return -1
 end
 
 p get_common([1,2,3], [2,4])
