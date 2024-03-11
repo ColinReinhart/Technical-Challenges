@@ -59,6 +59,7 @@ Leetcode         |[Linked List Cycle][49]                                       
 Leetcode         |[Count Elements with Maximum Frequenc][50]                                            |![rb]
 Leetcode         |[Minimum Common Element][51]                                                          |![rb]
 Leetcode         |[Intersection of Two Arrays][52]                                                      |![rb]
+Leetcode         |[Custom Sort String][53]                                                              |![rb]
 DailyRuby        |[Double Strings][1o]                                                                  |![rb]
 HackerRank       |[Plus Minus][1h]                                                                      |![rb]
 HackerRank       |[Min-Max Sum][2h]                                                                     |![rb]
@@ -131,6 +132,7 @@ Other            |[Largest Number][ot1]                                         
 [50]:Leetcode/count_elements_with_maximum_frequency/
 [51]:Leetcode/minimum_common_element/
 [52]:Leetcode/intersection_of_two_arrays/
+[53]:Leetcode/custom_sort_string/
 
 [1o]:Other/double_string/
 
