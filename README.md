@@ -61,6 +61,7 @@ Leetcode         |[Minimum Common Element][51]                                  
 Leetcode         |[Intersection of Two Arrays][52]                                                      |![rb]
 Leetcode         |[Custom Sort String][53]                                                              |![rb]
 Leetcode         |[Remoce Zero Sum Consecutive Nodes from Linked List][54]                              |![rb]
+Leetcode         |[Find the Pivot Integer][55]                                                          |![rb]
 DailyRuby        |[Double Strings][1o]                                                                  |![rb]
 HackerRank       |[Plus Minus][1h]                                                                      |![rb]
 HackerRank       |[Min-Max Sum][2h]                                                                     |![rb]
@@ -135,7 +136,7 @@ Other            |[Largest Number][ot1]                                         
 [52]:Leetcode/intersection_of_two_arrays/
 [53]:Leetcode/custom_sort_string/
 [54]:Leetcode/remove_zero_sum_consecutive_nodes_from_linked_list/
-
+[55]:Leetcode/find_the_pivot_integer/
 [1o]:Other/double_string/
 
 [1h]:HackerRank/Plus_Minus/
