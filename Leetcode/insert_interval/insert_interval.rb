@@ -1,57 +1,40 @@
-# @param {Integer[][]} intervals
-# @param {Integer[]} new_interval
-# @return {Integer[][]}
 def insert(intervals, new_interval)
-  if intervals == []
+  if intervals.empty?
     return [new_interval]
   end
-  @full = []
-  @answer = []
-  @final_answer = []
+
+  full = []
+  answer = []
+  final_answer = []
+
   intervals.each do |int|
     arr = Array(int[0]..int[1])
-    @full << arr
+    full << arr
   end
-  @full << full_new = Array(new_interval[0]..new_interval[1])
-  @full = @full.sort
-  def combine_overlap(arr)
-    if arr[1] == nil
-      if !(@answer[-1] & arr[0]).empty?
-        @answer[-1] = (@answer[-1] + arr[0]).uniq
-        @full.shift
-      else
-        @answer << arr[0]
-        @full.shift
-      end
-    elsif !(arr[0] & arr[1]).empty?
-      wip = arr[0] + arr[1]
-      if arr[2] != nil && !(wip & arr[2]).empty?
-        @full.delete_at(0)
-        @full.delete_at(0)
-        @full.insert(0, wip.uniq)
-        combine_overlap(@full)
-      else
-        wip << arr[1]
-        @answer << wip.flatten.uniq
-        @full.shift
-      end
-    elsif @answer[-1] != nil && !(@answer[-1] & arr[0]).empty?
-      @answer[-1] = (@answer[-1] << arr[0]).flatten.uniq
-      @full.shift
+
+  full << full_new = Array(new_interval[0]..new_interval[1])
+  full = full.sort
+
+  until full.empty?
+    arr = full.shift
+    if answer.empty?
+      answer << arr
     else
-      # require 'pry'; binding.pry
-      @answer << arr[0]
-      @full.shift
+      last_interval = answer[-1]
+      if last_interval.last < arr.first
+        answer << arr
+      else
+        last_interval[-1] = [last_interval[-1], arr[-1]].max
+      end
     end
   end
-  until @full == []
-    combine_overlap(@full)
-  end
-  @answer.each do |arr|
+
+  answer.each do |arr|
     arr = [arr[0], arr[-1]]
-    @final_answer << arr
+    final_answer << arr
   end
-  @final_answer
+
+  final_answer
 end
 
 p insert([[1,3],[6,9]], [2,5]) # [[1,5],[6,9]]
