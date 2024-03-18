@@ -63,6 +63,7 @@ Leetcode         |[Custom Sort String][53]                                      
 Leetcode         |[Remoce Zero Sum Consecutive Nodes from Linked List][54]                              |![rb]
 Leetcode         |[Find the Pivot Integer][55]                                                          |![rb]
 Leetcode         |[Contiguous Array][56]                                                                |![rb]
+Leetcode         |[Insert Interval][57]                                                                 |![rb]
 DailyRuby        |[Double Strings][1o]                                                                  |![rb]
 HackerRank       |[Plus Minus][1h]                                                                      |![rb]
 HackerRank       |[Min-Max Sum][2h]                                                                     |![rb]
@@ -139,6 +140,7 @@ Other            |[Largest Number][ot1]                                         
 [54]:Leetcode/remove_zero_sum_consecutive_nodes_from_linked_list/
 [55]:Leetcode/find_the_pivot_integer/
 [56]:Leetcode/contiguous_array/
+[57]:Leetcode/insert_interval/
 
 [1o]:Other/double_string/
 
