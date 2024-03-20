@@ -12,14 +12,26 @@ end
 # @param {ListNode} list2
 # @return {ListNode}
 def merge_in_between(list1, a, b, list2)
-    require 'pry'; binding.pry
+  dummy = ListNode.new(0)
+  dummy.next = list1
+  current = dummy
+  a.times { current = current.next }
+
+  node_before_a = current
+  (b - a + 1).times { current = current.next }
+
+  node_after_b = current.next
+
+  node_before_a.next = list2
+  until list2.next.nil?
+    list2 = list2.next
+  end
+  list2.next = node_after_b
+
+  dummy.next
 end
 
 list1 = ListNode.new(0, ListNode.new(1, ListNode.new(2, ListNode.new(3, ListNode.new(4, ListNode.new(5))))))
-list2 = ListNode.new(1000000, ListNode.new(1000001, ListNode.new(1000002, ListNode.new(1000003, ListNode.new(1000004))))
+list2 = ListNode.new(1000000, ListNode.new(1000001, ListNode.new(1000002, ListNode.new(1000003, ListNode.new(1000004)))))
 
-merge_in_between(list1, 3, 4, list2)
-# Output: [0,1,2,1000000,1000001,1000002,1000003,1000004,5]
-
-# list1 = ListNode.new(0, ListNode.new(1, ListNode.new(2, ListNode.new(3, ListNode.new(4, ListNode.new(5))))))
-# list2 = ListNode.new(1000000, ListNode.new(1000001, ListNode.new(1000002, ListNode.new(1000003, ListNode.new(1000004))))
+p merge_in_between(list1, 3, 4, list2)
