@@ -65,6 +65,7 @@ Leetcode         |[Find the Pivot Integer][55]                                  
 Leetcode         |[Contiguous Array][56]                                                                |![rb]
 Leetcode         |[Insert Interval][57]                                                                 |![rb]
 Leetcode         |[Merge In Between Linked Lists][58]                                                   |![rb]
+Leetcode         |[Palindrome Linked List][59]                                                          |![rb]
 DailyRuby        |[Double Strings][1o]                                                                  |![rb]
 HackerRank       |[Plus Minus][1h]                                                                      |![rb]
 HackerRank       |[Min-Max Sum][2h]                                                                     |![rb]
@@ -143,6 +144,7 @@ Other            |[Largest Number][ot1]                                         
 [56]:Leetcode/contiguous_array/
 [57]:Leetcode/insert_interval/
 [58]:Leetcode/merge_in_between_linked_lists/
+[59]:Leetcode/palindrome_linked_list/
 
 [1o]:Other/double_string/
 
