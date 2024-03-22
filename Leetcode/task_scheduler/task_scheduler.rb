@@ -2,23 +2,21 @@
 # @param {Integer} n
 # @return {Integer}
 def least_interval(tasks, n)
-  hash = { 'int' => n }
-  arr = []
-  tasks.each do |task|
-    hash[task] = hash[task].nil? ? 1 : hash[task] + 1
-  end
+  count = 0
+  hash = Hash.new(0)
+  tasks.each { |task| hash[task] += 1 }
+  wait = (n+1) - hash.size
   until hash.empty? do
-    hash.sort.map do |key, value|
-      arr << key
-      hash[key] -= 1
-      if hash[key] == 0
-        hash.delete(key)
-      end
+    hash.sort.map do |k,v|
+      hash[k] -= 1
+      hash.delete(k) if hash[k] == 0
+      count += 1
     end
+    count += wait if hash.size > 0 && wait > 0
   end
-  arr.count
+  count
 end
 
 p least_interval(["A","A","A","B","B","B"], 2)
 p least_interval(["A","A","A","B","B","B"], 0)
-# p least_interval(["A","A","A","A","A","A","B","C","D","E","F","G"], 2)
+p least_interval(["A","A","A", "B","B","B"], 3)
