@@ -68,6 +68,7 @@ Leetcode         |[Merge In Between Linked Lists][58]                           
 Leetcode         |[Palindrome Linked List][59]                                                          |![rb]
 Leetcode         |[Reverse Linked List][60]                                                             |![rb]
 Leetcode         |[Reorder List][61]                                                                    |![rb]
+Leetcode         |[Squares of a Sorted Array][62]                                                       |![rb]
 DailyRuby        |[Double Strings][1o]                                                                  |![rb]
 HackerRank       |[Plus Minus][1h]                                                                      |![rb]
 HackerRank       |[Min-Max Sum][2h]                                                                     |![rb]
@@ -149,6 +150,7 @@ Other            |[Largest Number][ot1]                                         
 [59]:Leetcode/palindrome_linked_list/
 [60]:Leetcode/reverse_linked_list/
 [61]:Leetcode/reorder_list/
+[62]:Leetcode/squares_of_a_sorted_array/
 
 [1o]:Other/double_string/
 
