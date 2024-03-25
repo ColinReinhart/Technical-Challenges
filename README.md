@@ -69,6 +69,7 @@ Leetcode         |[Palindrome Linked List][59]                                  
 Leetcode         |[Reverse Linked List][60]                                                             |![rb]
 Leetcode         |[Reorder List][61]                                                                    |![rb]
 Leetcode         |[Squares of a Sorted Array][62]                                                       |![rb]
+Leetcode         |[Find Duplicate Numbers in an Array][63]                                              |![rb]
 DailyRuby        |[Double Strings][1o]                                                                  |![rb]
 HackerRank       |[Plus Minus][1h]                                                                      |![rb]
 HackerRank       |[Min-Max Sum][2h]                                                                     |![rb]
@@ -151,6 +152,7 @@ Other            |[Largest Number][ot1]                                         
 [60]:Leetcode/reverse_linked_list/
 [61]:Leetcode/reorder_list/
 [62]:Leetcode/squares_of_a_sorted_array/
+[63]:Leetcode/find_all_duplicates_in_an_array/
 
 [1o]:Other/double_string/
 
