@@ -2,7 +2,7 @@
 # @return {Integer}
 def first_missing_positive(nums)
   @x = 1
-  sorted = nums.sort
+  sorted = nums.sort.uniq
   sort_pos = sorted.select { |num| num > 0 }
   def find_missing(arr)
     if arr[0] != @x
