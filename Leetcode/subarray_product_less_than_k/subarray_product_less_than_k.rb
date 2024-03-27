@@ -2,20 +2,22 @@
   # @param {Integer} k
   # @return {Integer}
   def num_subarray_product_less_than_k(nums, k)
-    return 0 if nums.min >= k
-    arr = []
-    k = k
+    return 0 if k <= 1
 
-    nums.each_with_index do |num, i|
-      arr << [num]
-      j = i + 1
-      while j < nums.length
-        arr << arr[-1] + [nums[j]] if arr[-1].inject(:*) * nums[j] < k
-        j += 1
+    product = 1
+    count = left = 0
+
+    nums.each_with_index do |num, right|
+      product *= num
+
+      while product >= k
+        product /= nums[left]
+        left += 1
       end
-    end
 
-    arr.length
+      count += right - left + 1
+    end
+    count
   end
 
 p num_subarray_product_less_than_k([10, 5, 2, 6], 100)
