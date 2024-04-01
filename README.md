@@ -73,6 +73,7 @@ Leetcode         |[Find Duplicate Numbers in an Array][63]                      
 Leetcode         |[First Missing Positive][64]                                                          |![rb]
 Leetcode         |[Subarray Product Less Than K][65]                                                    |![rb]
 Leetcode         |[Length of Longest Subarray With Most K Frequency][66]                                |![rb]
+Leetcode         |[Length of Last Word][67]                                                             |![rb]
 DailyRuby        |[Double Strings][1o]                                                                  |![rb]
 HackerRank       |[Plus Minus][1h]                                                                      |![rb]
 HackerRank       |[Min-Max Sum][2h]                                                                     |![rb]
@@ -159,6 +160,7 @@ Other            |[Largest Number][ot1]                                         
 [64]:Leetcode/first_missing_positive/
 [65]:Leetcode/subarray_product_less_than_k/
 [66]:Leetcode/length_of_longest_subarray_with_at_most_k_frequency/
+[67]:Leetcode/length_of_last_word/
 
 [1o]:Other/double_string/
 

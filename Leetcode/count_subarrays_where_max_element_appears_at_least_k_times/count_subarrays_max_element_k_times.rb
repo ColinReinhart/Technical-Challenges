@@ -13,7 +13,6 @@ def count_subarrays(nums, k)
 
   until left == 0 && right == nums.length do
     while right < nums.length do
-      # require 'pry'; binding.pry
       nums[left..right].each { |num| hash[num] += 1 }
       if hash[max] >= k
         count += 1
