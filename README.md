@@ -76,6 +76,7 @@ Leetcode         |[Length of Longest Subarray With Most K Frequency][66]        
 Leetcode         |[Length of Last Word][67]                                                             |![rb]
 Leetcode         |[Make the String Great][68]                                                           |![rb]
 Leetcode         |[Maximum Nesting Depth of the Parentheses][69]                                        |![rb]
+Leetcode         |[Number of Students Unable to Eat Lunch][70]                                          |![rb]
 DailyRuby        |[Double Strings][1o]                                                                  |![rb]
 HackerRank       |[Plus Minus][1h]                                                                      |![rb]
 HackerRank       |[Min-Max Sum][2h]                                                                     |![rb]
@@ -165,6 +166,7 @@ Other            |[Largest Number][ot1]                                         
 [67]:Leetcode/length_of_last_word/
 [68]:Leetcode/make_the_string_great/
 [69]:Leetcode/maximum_nesting_depth_of_the_parentheses/
+[70]:Leetcode/number_of_students_unable_to_eat_lunch/
 
 [1o]:Other/double_string/
 
