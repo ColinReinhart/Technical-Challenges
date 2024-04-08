@@ -11,7 +11,7 @@ require 'stringio'
 #
 
 def flippingBits(n)
-    require 'pry'; binding.pry
+    return n ^ 0xFFFFFFFF
 end
 
 fptr = File.open(ENV['OUTPUT_PATH'], 'w')
