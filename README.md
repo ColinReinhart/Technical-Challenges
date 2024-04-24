@@ -80,6 +80,7 @@ Leetcode         |[Number of Students Unable to Eat Lunch][70]                  
 Leetcode         |[Island Perimeter- Ruby][71]                                                          |![rb]
 Leetcode         |[Island Perimeter- Python][72]                                                        |![py]
 Leetcode         |[Number of Islands][73]                                                               |![rb]
+Leetcode         |[N-th Tribonacci Number][74]                                                          |![rb]
 DailyRuby        |[Double Strings][1o]                                                                  |![rb]
 HackerRank       |[Plus Minus][1h]                                                                      |![rb]
 HackerRank       |[Min-Max Sum][2h]                                                                     |![rb]
@@ -174,6 +175,7 @@ Other            |[Largest Number][ot1]                                         
 [71]:Leetcode/island_perimeter/island_perimeter.rb
 [72]:Leetcode/island_perimeter/island_perimeter.py
 [73]:Leetcode/number_of_islands/
+[74]:Leetcode/n-th_tribonacci_number/
 
 [1o]:Other/double_string/
 
