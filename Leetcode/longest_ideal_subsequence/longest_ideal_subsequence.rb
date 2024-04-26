@@ -2,23 +2,22 @@
 # @param {Integer} k
 # @return {Integer}
 def longest_ideal_string(s, k)
-  arr = {}
-  wip = {}
-  hash = ('a'..'z').each_with_object({}).with_index(1) { |(char, h), pos| h[char] = pos }
-  split = s.split('')
-  split.each { |char| wip[char] = hash[char] }
+  longest_length = 0
 
-  wip.each_with_index do | (key, v), index |
-    if arr == {}
-      arr[key] = v
-    elsif v - arr.values[- 1] <= k
-      arr[key] = v
+  s.each_char.with_index do |char, i|
+    subsequence = char
+    j = i + 1
+
+    while j < s.length && (s[j].ord - subsequence[-1].ord).abs <= k
+      subsequence += s[j]
+      j += 1
     end
+    longest_length = [longest_length, subsequence.length].max
   end
 
-    arr.length
-
+  longest_length
 end
 
 p longest_ideal_string("acfgbd", 2)
-p longest_ideal_string("abcd", 3)
+# p longest_ideal_string("abcd", 3)
+# p longest_ideal_string("pvjcci", 4)
