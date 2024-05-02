@@ -84,6 +84,7 @@ Leetcode         |[N-th Tribonacci Number][74]                                  
 Leetcode         |[Minimum Falling Path Sum II][75]                                                     |![rb]
 Leetcode         |[Reverse Prefix of Word][76]                                                          |![rb]
 Leetcode         |[Number of Wonderful Substrings][77]                                                  |![rb]
+Leetcode         |[Largest Positive Integer That Exists With Its Negative][78]                          |![rb]
 DailyRuby        |[Double Strings][1o]                                                                  |![rb]
 HackerRank       |[Plus Minus][1h]                                                                      |![rb]
 HackerRank       |[Min-Max Sum][2h]                                                                     |![rb]
@@ -182,6 +183,7 @@ Other            |[Largest Number][ot1]                                         
 [75]:Leetcode/minimum_falling_path_sum_II/
 [76]:Leetcode/reverse_prefix_of_word/
 [77]:Leetcode/number_of_wonderful_substrings/
+[78]:Leetcode/largest_positive_intiger_that_exists_with_its_negative/
 
 [1o]:Other/double_string/
 
