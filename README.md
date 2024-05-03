@@ -85,6 +85,7 @@ Leetcode         |[Minimum Falling Path Sum II][75]                             
 Leetcode         |[Reverse Prefix of Word][76]                                                          |![rb]
 Leetcode         |[Number of Wonderful Substrings][77]                                                  |![rb]
 Leetcode         |[Largest Positive Integer That Exists With Its Negative][78]                          |![rb]
+Leetcode         |[Compare Version Numbers][79]                                                         |![rb]
 DailyRuby        |[Double Strings][1o]                                                                  |![rb]
 HackerRank       |[Plus Minus][1h]                                                                      |![rb]
 HackerRank       |[Min-Max Sum][2h]                                                                     |![rb]
@@ -184,6 +185,7 @@ Other            |[Largest Number][ot1]                                         
 [76]:Leetcode/reverse_prefix_of_word/
 [77]:Leetcode/number_of_wonderful_substrings/
 [78]:Leetcode/largest_positive_intiger_that_exists_with_its_negative/
+[79]:Leetcode/compare_version_numbers/
 
 [1o]:Other/double_string/
 
