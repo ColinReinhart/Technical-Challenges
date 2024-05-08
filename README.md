@@ -87,6 +87,7 @@ Leetcode         |[Number of Wonderful Substrings][77]                          
 Leetcode         |[Largest Positive Integer That Exists With Its Negative][78]                          |![rb]
 Leetcode         |[Compare Version Numbers][79]                                                         |![rb]
 Leetcode         |[Relative Ranks][80]                                                                  |![rb]
+Leetcode         |[Longest Substring Without Repeating Characters][81]                                  |![rb]
 DailyRuby        |[Double Strings][1o]                                                                  |![rb]
 HackerRank       |[Plus Minus][1h]                                                                      |![rb]
 HackerRank       |[Min-Max Sum][2h]                                                                     |![rb]
@@ -188,6 +189,7 @@ Other            |[Largest Number][ot1]                                         
 [78]:Leetcode/largest_positive_intiger_that_exists_with_its_negative/
 [79]:Leetcode/compare_version_numbers/
 [80]:Leetcode/relative_ranks/
+[81]:Leetcode/longest_substring_without_repeating_characters/
 
 [1o]:Other/double_string/
 
