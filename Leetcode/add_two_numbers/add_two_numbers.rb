@@ -19,15 +19,13 @@ def add_two_numbers(l1, l2)
       arr << wip.val
       wip = wip.next
     end
-    @array << arr.join('').to_i
+    @array << arr.reverse.join('').to_i
   end
   arr_ll(l1)
   arr_ll(l2)
   @array.sum.to_s.split('').reverse.map { |s| s.to_i }
 end
 
-list1 = ListNode.new(2, ListNode.new(4, ListNode.new(3, ListNode.new)))
-list2 = ListNode.new(5, ListNode.new(6, ListNode.new(4, ListNode.new)))
+list1 = ListNode.new(2, ListNode.new(4, ListNode.new(9, ListNode.new)))
+list2 = ListNode.new(5, ListNode.new(6, ListNode.new(4, ListNode.new(9, ListNode.new))))
 p add_two_numbers(list1, list2)
-# p add_two_numbers([0], [0])
-# p add_two_numbers([9,9,9,9,9,9,9], [9,9,9,9])
