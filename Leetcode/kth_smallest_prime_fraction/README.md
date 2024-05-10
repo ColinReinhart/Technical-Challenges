@@ -17,6 +17,7 @@ Output: [2,5]
 Explanation: The fractions to be considered in sorted order are:
 1/5, 1/3, 2/5, 1/2, 3/5, and 2/3.
 The third fraction is 2/5.
+
 Example 2:
 
 Input: arr = [1,7], k = 1
