@@ -8,7 +8,6 @@ substring
 palindrome
 . Return all possible palindrome partitioning of s.
 
- 
 
 Example 1:
 
