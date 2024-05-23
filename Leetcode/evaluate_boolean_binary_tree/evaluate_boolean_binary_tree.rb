@@ -1,14 +1,16 @@
 # Definition for a binary tree node.
-# class TreeNode
-#     attr_accessor :val, :left, :right
-#     def initialize(val = 0, left = nil, right = nil)
-#         @val = val
-#         @left = left
-#         @right = right
-#     end
-# end
+class TreeNode
+    attr_accessor :val, :left, :right
+    def initialize(val = 0, left = nil, right = nil)
+        @val = val
+        @left = left
+        @right = right
+    end
+end
 # @param {TreeNode} root
 # @return {Boolean}
 def evaluate_tree(root)
-
+  require 'pry'; binding.pry
 end
+
+tree1 = TreeNode.new()
