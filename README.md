@@ -90,6 +90,7 @@ Leetcode         |[Relative Ranks][80]                                          
 Leetcode         |[Longest Substring Without Repeating Characters][81]                                  |![rb]
 Leetcode         |[Add Two Numbers][82]                                                                 |![rb]
 Leetcode         |[The Number of Beautiful Subsets][83]                                                 |![rb]
+Leetcode         |[Maximize Happiness of Selected Children][84]                                         |![rb]
 DailyRuby        |[Double Strings][1o]                                                                  |![rb]
 HackerRank       |[Plus Minus][1h]                                                                      |![rb]
 HackerRank       |[Min-Max Sum][2h]                                                                     |![rb]
@@ -194,6 +195,7 @@ Other            |[Largest Number][ot1]                                         
 [81]:Leetcode/longest_substring_without_repeating_characters/
 [82]:Leetcode/add_two_numbers/
 [83]:Leetcode/the_number_of_beautiful_subsets/
+[84]:Leetcode/maximize_happiness_of_selected_children/
 
 [1o]:Other/double_string/
 
