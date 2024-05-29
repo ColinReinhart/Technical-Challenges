@@ -92,6 +92,7 @@ Leetcode         |[Add Two Numbers][82]                                         
 Leetcode         |[The Number of Beautiful Subsets][83]                                                 |![rb]
 Leetcode         |[Maximize Happiness of Selected Children][84]                                         |![rb]
 Leetcode         |[Number of Steps to Reduce a Number in Binary Representation to One][85]              |![rb]
+Leetcode         |[Zigzag Conversion][86]                                                               |![rb]
 DailyRuby        |[Double Strings][1o]                                                                  |![rb]
 HackerRank       |[Plus Minus][1h]                                                                      |![rb]
 HackerRank       |[Min-Max Sum][2h]                                                                     |![rb]
@@ -198,6 +199,7 @@ Other            |[Largest Number][ot1]                                         
 [83]:Leetcode/the_number_of_beautiful_subsets/
 [84]:Leetcode/maximize_happiness_of_selected_children/
 [85]:Leetcode/number_of_steps_to_reduce_a_number_in_binary_representation_to_one/
+[86]:Leetcode/zigzag_conversion/
 
 [1o]:Other/double_string/
 
