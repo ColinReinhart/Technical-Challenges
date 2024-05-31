@@ -1,34 +1,78 @@
-9. Palindrome Number
-Easy
-Topics
-Companies
-Hint
-Given an integer x, return true if x is a 
-palindrome
-, and false otherwise.
+# 9. Palindrome Number
 
- 
+**Difficulty**: Easy
 
-Example 1:
+## Description
 
-Input: x = 121
-Output: true
-Explanation: 121 reads as 121 from left to right and from right to left.
-Example 2:
+Given an integer `x`, return `true` if `x` is a palindrome, and `false` otherwise.
 
-Input: x = -121
-Output: false
-Explanation: From left to right, it reads -121. From right to left, it becomes 121-. Therefore it is not a palindrome.
-Example 3:
+## Examples
 
-Input: x = 10
-Output: false
-Explanation: Reads 01 from right to left. Therefore it is not a palindrome.
- 
+### Example 1
 
-Constraints:
+**Input**:
+```ruby
+x = 121
+```
 
--231 <= x <= 231 - 1
- 
+**Output**:
+```ruby
+true
+```
 
-Follow up: Could you solve it without converting the integer to a string?
+**Explanation**:
+- `121` reads as `121` from left to right and from right to left.
+
+### Example 2
+
+**Input**:
+```ruby
+x = -121
+```
+
+**Output**:
+```ruby
+false
+```
+
+**Explanation**:
+- From left to right, it reads `-121`. From right to left, it becomes `121-`. Therefore it is not a palindrome.
+
+### Example 3
+
+**Input**:
+```ruby
+x = 10
+```
+
+**Output**:
+```ruby
+false
+```
+
+**Explanation**:
+- Reads `01` from right to left. Therefore it is not a palindrome.
+
+## Constraints
+
+- \(-2^{31} \leq x \leq 2^{31} - 1\)
+
+## Follow Up
+
+- Could you solve it without converting the integer to a string?
+
+## Topics
+
+- Math
+- Two Pointers
+
+## Companies
+
+- Amazon
+- Google
+- Facebook
+- Microsoft
+
+## Hint
+
+To check if an integer is a palindrome, you can compare the digits from the start and end moving towards the center. If they are the same, then the number is a palindrome. Consider edge cases like negative numbers and numbers with trailing zeros.
