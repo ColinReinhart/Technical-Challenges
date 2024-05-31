@@ -96,6 +96,7 @@ Leetcode         |[Zigzag Conversion][86]                                       
 Leetcode         |[Reverse Integer][87]                                                                 |![rb]
 Leetcode         |[Single Number III][88]                                                               |![rb]
 Leetcode         |[String to Integer(atoi)][89]                                                         |![rb]
+Leetcode         |[Palindrome Number][90]                                                               |![rb]
 DailyRuby        |[Double Strings][1o]                                                                  |![rb]
 HackerRank       |[Plus Minus][1h]                                                                      |![rb]
 HackerRank       |[Min-Max Sum][2h]                                                                     |![rb]
@@ -206,6 +207,7 @@ Other            |[Largest Number][ot1]                                         
 [87]:Leetcode/reverse_integer/
 [88]:Leetcode/single_number_III/
 [89]:Leetcode/string_to_integer_atoi/
+[90]:Leetcode/palindrome_number/
 
 [1o]:Other/double_string/
 
