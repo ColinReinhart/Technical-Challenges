@@ -95,6 +95,7 @@ Leetcode         |[Number of Steps to Reduce a Number in Binary Representation t
 Leetcode         |[Zigzag Conversion][86]                                                               |![rb]
 Leetcode         |[Reverse Integer][87]                                                                 |![rb]
 Leetcode         |[Single Number III][88]                                                               |![rb]
+Leetcode         |[String to Integer(atoi)][89]                                                         |![rb]
 DailyRuby        |[Double Strings][1o]                                                                  |![rb]
 HackerRank       |[Plus Minus][1h]                                                                      |![rb]
 HackerRank       |[Min-Max Sum][2h]                                                                     |![rb]
@@ -204,6 +205,7 @@ Other            |[Largest Number][ot1]                                         
 [86]:Leetcode/zigzag_conversion/
 [87]:Leetcode/reverse_integer/
 [88]:Leetcode/single_number_III/
+[89]:Leetcode/string_to_integer_atoi/
 
 [1o]:Other/double_string/
 
