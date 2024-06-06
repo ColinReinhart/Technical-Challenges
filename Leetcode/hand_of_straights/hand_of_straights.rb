@@ -31,22 +31,20 @@ def is_n_straight_hand(hand, group_size)
   end
 
   def is_consecutive?
-    self.each do |arr|
-      arr.each_with_index do |c,i|
-        if i == 0
-          break
-        elsif arr[-1] - c == -1
-          break
-        else
-          return false
-        end
-        return true
+    self.all? do |array|
+      sorted_array = array.sort
+      (0...sorted_array.length - 1).all? do |i|
+        sorted_array[i + 1] == sorted_array[i] + 1
       end
     end
   end
 
-  if @arr.is_consecutive?
-    return true
+  if @arr.all? { |x| x.count == group_size }
+    if @arr.is_consecutive?
+      return true
+    else
+      return false
+    end
   else
     return false
   end
@@ -54,6 +52,8 @@ end
 
 p is_n_straight_hand([1,2,3,6,2,3,4,7,8], 3)
 p is_n_straight_hand([1,2,3,4,5], 4)
+p is_n_straight_hand([8,10,12], 3)
+p is_n_straight_hand([1,1,2,2,3,3], 2)
 
 
 
