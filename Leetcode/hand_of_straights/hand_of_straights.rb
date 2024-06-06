@@ -2,90 +2,23 @@
 # @param {Integer} group_size
 # @return {Boolean}
 def is_n_straight_hand(hand, group_size)
-  @arr = []
-  if  hand.count % group_size != 0
-    return false
-  end
-  hash = Hash.new(0)
-  hand.sort.each { |x| hash[x] += 1 }
+  return false if hand.size % group_size != 0
 
-  def find_straight(h, s)
-    temp = []
-    wip = h.to_a
-    wip[0..s-1].each do |k, v|
-      temp << k
-      h[k] -= 1
-      if h[k] == 0
-        h.delete(k)
-      end
-    end
-    @arr << temp
-    # require 'pry'; binding.pry
-    if h != {}
-      find_straight(h, s)
+  count = Hash.new(0)
+  hand.each { |card| count[card] += 1 }
+  hand.sort.each do |card|
+    next if count[card] == 0
+
+    (0...group_size).each do |i|
+      return false if count[card + i] == 0
+      count[card + i] -= 1
     end
   end
 
-  if hash != {}
-    find_straight(hash, group_size)
-  end
-
-  def is_consecutive?
-    self.all? do |array|
-      sorted_array = array.sort
-      (0...sorted_array.length - 1).all? do |i|
-        sorted_array[i + 1] == sorted_array[i] + 1
-      end
-    end
-  end
-
-  if @arr.all? { |x| x.count == group_size }
-    if @arr.is_consecutive?
-      return true
-    else
-      return false
-    end
-  else
-    return false
-  end
+  true
 end
 
 p is_n_straight_hand([1,2,3,6,2,3,4,7,8], 3)
 p is_n_straight_hand([1,2,3,4,5], 4)
 p is_n_straight_hand([8,10,12], 3)
 p is_n_straight_hand([1,1,2,2,3,3], 2)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# until hash == {}
-  # temp =[]
-  #   hash.each do |k,v|
-  #     if temp.count < group_size
-  #       temp << k
-  #       hash[k] -= 1
-  #     elsif temp.count == group_size
-  #       arr << temp
-  #       temp = [k]
-  #       hash[k] -= 1
-  #       if hash[k] == 0
-  #         hash.delete(k)
-  #       end
-  #       require 'pry'; binding.pry
-  #     else
-  #      require 'pry'; binding.pry
-  #     end
-  #   end
-  # end
