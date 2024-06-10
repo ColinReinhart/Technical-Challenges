@@ -99,6 +99,7 @@ Leetcode         |[String to Integer(atoi)][89]                                 
 Leetcode         |[Palindrome Number][90]                                                               |![rb]
 Leetcode         |[Hand of Straights][91]                                                               |![rb]
 Leetcode         |[Replace Words][92]                                                                   |![rb]
+Leetcode         |[Height Checker][93]                                                                  |![rb]
 DailyRuby        |[Double Strings][1o]                                                                  |![rb]
 HackerRank       |[Plus Minus][1h]                                                                      |![rb]
 HackerRank       |[Min-Max Sum][2h]                                                                     |![rb]
@@ -209,9 +210,10 @@ Other            |[Largest Number][ot1]                                         
 [87]:Leetcode/reverse_integer/
 [88]:Leetcode/single_number_III/
 [89]:Leetcode/string_to_integer_atoi/
-[90]:Leetcode/palindrome_number/
+[90]:Leetcode/palindrome_number/s
 [91]:Leetcode/hand_of_straights/
 [92]:Leetcode/replace_words/
+[93]:Leetcode/height_checker/
 
 [1o]:Other/double_string/
 
