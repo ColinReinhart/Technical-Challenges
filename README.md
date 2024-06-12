@@ -101,6 +101,7 @@ Leetcode         |[Hand of Straights][91]                                       
 Leetcode         |[Replace Words][92]                                                                   |![rb]
 Leetcode         |[Height Checker][93]                                                                  |![rb]
 Leetcode         |[Relative Sort Array][94]                                                             |![rb]
+Leetcode         |[Sort Colors][95]                                                                     |![rb]
 DailyRuby        |[Double Strings][1o]                                                                  |![rb]
 HackerRank       |[Plus Minus][1h]                                                                      |![rb]
 HackerRank       |[Min-Max Sum][2h]                                                                     |![rb]
@@ -216,6 +217,7 @@ Other            |[Largest Number][ot1]                                         
 [92]:Leetcode/replace_words/
 [93]:Leetcode/height_checker/
 [94]:Leetcode/relative_sort_array/
+[95]:Leetcode/sort_colors/
 
 [1o]:Other/double_string/
 
