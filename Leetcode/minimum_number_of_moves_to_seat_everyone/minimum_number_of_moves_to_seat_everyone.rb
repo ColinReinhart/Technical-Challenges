@@ -2,11 +2,11 @@
 # @param {Integer[]} students
 # @return {Integer}
 def min_moves_to_seat(seats, students)
-  x = seats.sort
-  y = students.sort
+  seats.sort!
+  students.sort!
   moves = 0
 
-  moves += (x.shift - y.shift).abs until x.empty?
+  moves += (seats.shift - students.shift).abs until seats.empty?
 
   moves
 end
