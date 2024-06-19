@@ -106,6 +106,7 @@ Leetcode         |[Container with Most Water][96]                               
 Leetcode         |[Minimum Number of Moves To Seat Everyone][97]                                        |![rb]
 Leetcode         |[Minimum Increment to Make Array Unique][98]                                          |![rb]
 Leetcode         |[IPO][99]                                                                             |![rb]
+Leetcode         |[Minimum Number of Days to Make M Bouquets][100]                                      |![rb]
 DailyRuby        |[Double Strings][1o]                                                                  |![rb]
 HackerRank       |[Plus Minus][1h]                                                                      |![rb]
 HackerRank       |[Min-Max Sum][2h]                                                                     |![rb]
@@ -226,6 +227,7 @@ Other            |[Largest Number][ot1]                                         
 [97]:Leetcode/minimum_number_of_moves_to_seat_everyone/
 [98]:Leetcode/minimum_increment_to_make_array_unique/
 [99]:Leetcode/ipo
+[100]:Leetcode/minimum_number_of_days_to_make_m_bouquets/
 [1o]:Other/double_string/
 
 [1h]:HackerRank/Plus_Minus/
