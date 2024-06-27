@@ -111,6 +111,7 @@ Leetcode         |[Magnetic Force Between Two Balls][101]                       
 Leetcode         |[Roman to Integer][102]                                                               |![rb]
 Leetcode         |[Grumpy Bookstore Owner][103]                                                         |![rb]
 Leetcode         |[Balance a Binary Search Tree][104]                                                   |![rb]
+Leetcode         |[Find Center of Star Graph][105]                                                      |![rb]
 DailyRuby        |[Double Strings][1o]                                                                  |![rb]
 HackerRank       |[Plus Minus][1h]                                                                      |![rb]
 HackerRank       |[Min-Max Sum][2h]                                                                     |![rb]
@@ -236,6 +237,7 @@ Other            |[Largest Number][ot1]                                         
 [102]:Leetcode/roman_to_integer/
 [103]:Leetcode/grumpy_bookstore_owner/
 [104]:Leetcode/balance_a_binary_search_tree/
+[105]:Leetcode/find_center_of_star_graph/
 [1o]:Other/double_string/
 
 [1h]:HackerRank/Plus_Minus/
