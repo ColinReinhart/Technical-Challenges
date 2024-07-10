@@ -1,21 +1,18 @@
 # @param {String[]} logs
 # @return {Integer}
 def min_operations(logs)
-  until logs[0] != "../"
-    logs.shift
-  end
   count = 0
+
   logs.each do |log|
     if log == "../" && count > 0
       count -= 1
-    elsif log == "../" && count == 0
-      count += 0
-    elsif log == "./"
+    elsif log == "../" && count == 0 || log == "./"
       count += 0
     else
       count += 1
     end
   end
+
   count
 end
 
