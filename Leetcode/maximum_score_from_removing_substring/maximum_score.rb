@@ -3,52 +3,41 @@
 # @param {Integer} y
 # @return {Integer}
 def maximum_gain(s, x, y)
-  score = 0
-  left = 0
-  right = 1
+  def max_gain_for_pair(s, first, second, score_first, score_second)
+    stack = []
+    score = 0
 
-  def score_ab(s, x, left, right)
-    tally = 0
-    until s[right] == nil
-      if s[left..right] == "ab"
-        tally += x
-        s[left..right] = ""
-        left = 0
-        right = 1
+    s.each_char do |char|
+      if char == second && !stack.empty? && stack[-1] == first
+        stack.pop
+        score += score_first
       else
-        left += 1
-        right += 1
+        stack.push(char)
       end
     end
-    tally
-  end
 
-  def score_ba(s,y, left, right)
-    tally = 0
-    until s[right] == nil
-      if s[left..right] == "ba"
-        tally += y
-        s[left..right] = ""
-        left = 0
-        right = 1
-        else
-          left += 1
-          right += 1
-        end
+    new_s = stack.join
+    stack = []
+
+    new_s.each_char do |char|
+      if char == first && !stack.empty? && stack[-1] == second
+        stack.pop
+        score += score_second
+      else
+        stack.push(char)
+      end
     end
-    tally
+
+    score
   end
 
   if x > y
-    score += score_ab(s, x, left, right)
-    score += score_ba(s, y, left, right)
+    max_gain_for_pair(s, 'a', 'b', x, y)
   else
-    score += score_ba(s, y, left, right)
-    score += score_ab(s, x, left, right)
+    max_gain_for_pair(s, 'b', 'a', y, x)
   end
-
-  score
 end
+
 
 p maximum_gain("cdbcbbaaabab", 4, 5) #19
 p maximum_gain("aabbaaxybbaabb", 5, 4) #20
