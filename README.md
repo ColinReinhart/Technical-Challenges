@@ -119,6 +119,7 @@ Leetcode         |[Reverse Substrings Between Each Pair of Parentheses][109]    
 Leetcode         |[Maximum Score From Removing Substrings][110]                                         |![rb]
 Leetcode         |[Delete Nodes and Return Forest][111]                                                 |![rb]
 Leetcode         |[Longest Common Prefix][112]                                                          |![rb]
+Leetcode         |[Lucky Numbers in a Matrix][113]                                                      |![rb]
 DailyRuby        |[Double Strings][1o]                                                                  |![rb]
 HackerRank       |[Plus Minus][1h]                                                                      |![rb]
 HackerRank       |[Min-Max Sum][2h]                                                                     |![rb]
@@ -252,6 +253,7 @@ Other            |[Largest Number][ot1]                                         
 [110]:Leetcode/maximum_score_from_removing_substring/
 [111]:Leetcode/delete_nodes_and_return_forest/
 [112]:Leetcode/longest_common_prefix/
+[113]:Leetcode/lucky_numbers_in_a_matrix/
 [1o]:Other/double_string/
 
 [1h]:HackerRank/Plus_Minus/
