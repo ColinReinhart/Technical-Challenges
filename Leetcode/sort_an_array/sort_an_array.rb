@@ -6,7 +6,7 @@ def sort_array(nums)
 
   i = size / 2
 
-  while i < 0 do
+  while i > 0 do
     heapify(root_array, i, size)
     i -= 1
   end
