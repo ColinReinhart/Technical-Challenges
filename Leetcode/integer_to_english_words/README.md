@@ -1,26 +1,57 @@
-273. Integer to English Words
+Certainly! Here's the problem statement rewritten in Markdown format:
+
+## Problem: 273. Integer to English Words
+
+### Difficulty
 Hard
-Topics
-Companies
-Hint
-Convert a non-negative integer num to its English words representation.
 
- 
+### Topics
+- Strings
+- Math
 
-Example 1:
+### Companies
+- Microsoft
+- Meta
+- Amazon
+- Google
+- Apple
+- Warnermedia
 
-Input: num = 123
-Output: "One Hundred Twenty Three"
-Example 2:
+### Hint
+Convert a non-negative integer `num` to its English words representation.
 
-Input: num = 12345
-Output: "Twelve Thousand Three Hundred Forty Five"
-Example 3:
+### Description
+Given a non-negative integer `num`, convert it to its English words representation.
 
-Input: num = 1234567
-Output: "One Million Two Hundred Thirty Four Thousand Five Hundred Sixty Seven"
- 
+### Example 1
+**Input:** 
+```ruby
+num = 123
+```
+**Output:**
+```
+"One Hundred Twenty Three"
+```
 
-Constraints:
+### Example 2
+**Input:** 
+```ruby
+num = 12345
+```
+**Output:**
+```
+"Twelve Thousand Three Hundred Forty Five"
+```
 
-0 <= num <= 231 - 1
+### Example 3
+**Input:** 
+```ruby
+num = 1234567
+```
+**Output:**
+```
+"One Million Two Hundred Thirty Four Thousand Five Hundred Sixty Seven"
+```
+
+### Constraints
+- `0 <= num <= 2^31 - 1`
