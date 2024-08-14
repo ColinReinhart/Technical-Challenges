@@ -2,14 +2,36 @@
 # @param {Integer} k
 # @return {Integer}
 def smallest_distance_pair(nums, k)
-  pair_dists = []
+  nums.sort!
 
-  nums.each_with_index do |n,i|
-    nums[i+1..-1].each do |num|
-      pair_dists << (n - num).abs
+  def count_pairs(nums, guess)
+    count = 0
+    left = 0
+
+    nums.each_with_index do |num, right|
+      while num - nums[left] > guess
+        left += 1
+      end
+      count += right - left
+    end
+
+    count
+  end
+
+  left = 0
+  right = nums[-1] - nums[0]
+
+  while left < right
+    mid = (left + right) / 2
+
+    if count_pairs(nums, mid) >= k
+      right = mid
+    else
+      left = mid + 1
     end
   end
-  pair_dists.sort[k-1]
+
+  left
 end
 
 p smallest_distance_pair([1,3,1], 1) #0
