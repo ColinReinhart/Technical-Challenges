@@ -127,6 +127,7 @@ Leetcode         |[Minimum Swaps to Group All 1's Together II][117]             
 Leetcode         |[Number of Senior Citizens][118]                                                      |![rb]
 Leetcode         |[Integer to English Words][119]                                                       |![rb]
 Leetcode         |[Spiral Matrix III][120]                                                              |![rb]
+Leetcode         |[Find K-th Smallest Pair Distance][121]                                               |![rb]
 DailyRuby        |[Double Strings][1o]                                                                  |![rb]
 HackerRank       |[Plus Minus][1h]                                                                      |![rb]
 HackerRank       |[Min-Max Sum][2h]                                                                     |![rb]
@@ -268,6 +269,7 @@ Other            |[Largest Number][ot1]                                         
 [118]:Leetcode/number_of_senior_citizens/
 [119]:Leetcode/integer_to_english_words/
 [120]:Leetcode/spiral_matrix_III/
+[120]:Leetcode/find_k-th_smallest_pair_distance/
 
 [1o]:Other/double_string/
 
