@@ -1,35 +1,32 @@
 # @param {Integer[]} bills
 # @return {Boolean}
 def lemonade_change(bills)
-  till = []
+  five_count = 0
+  ten_count = 0
+
   bills.each do |bill|
     if bill == 5
-      till << bill
+      five_count += 1
     elsif bill == 10
-      if till.include?(5)
-        till << bill
-        till.delete_at(till.index(5))
+      if five_count > 0
+        five_count -= 1
+        ten_count += 1
       else
         return false
       end
     elsif bill == 20
-      if till.include?(10)
-        if till.include?(5)
-          till << bill
-          till.delete_at(till.index(5))
-          till.delete_at(till.index(10))
-        else
-          return false
-        end
-      elsif till.count(5) >= 3
-        till << bill
-        3.times { till.delete_at(till.index(5)) }
+      if ten_count > 0 && five_count > 0
+        ten_count -= 1
+        five_count -= 1
+      elsif five_count >= 3
+        five_count -= 3
       else
         return false
       end
     end
   end
-  return true
+
+  true
 end
 
 # p lemonade_change([5,5,5,10,20]) #true
