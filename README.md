@@ -128,7 +128,9 @@ Leetcode         |[Number of Senior Citizens][118]                              
 Leetcode         |[Integer to English Words][119]                                                       |![rb]
 Leetcode         |[Spiral Matrix III][120]                                                              |![rb]
 Leetcode         |[Find K-th Smallest Pair Distance][121]                                               |![rb]
-Leetcode         |[Lemonade Change][122]                                                                |![rb]
+Leetcode         |[Lemonade Change- Ruby][122]                                                          |![rb]
+Leetcode         |[Lemonade Change- Python][122]                                                        |![py]
+Leetcode         |[Lemonade Change- Javascript][122]                                                    |![js]
 DailyRuby        |[Double Strings][1o]                                                                  |![rb]
 HackerRank       |[Plus Minus][1h]                                                                      |![rb]
 HackerRank       |[Min-Max Sum][2h]                                                                     |![rb]
@@ -149,6 +151,7 @@ Other            |[Largest Number][ot1]                                         
 
 [rb]:./ico/ruby.ico
 [py]:./ico/python.ico
+[js]:./ico/javascript_icon_130900.ico
 
 [1]:Leetcode/add_two_numbers
 [2]:Leetcode/character_count
