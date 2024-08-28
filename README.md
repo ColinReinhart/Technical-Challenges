@@ -131,6 +131,7 @@ Leetcode         |[Find K-th Smallest Pair Distance][121]                       
 Leetcode         |[Lemonade Change- Ruby][122]                                                          |![rb]
 Leetcode         |[Lemonade Change- Python][122]                                                        |![py]
 Leetcode         |[Lemonade Change- Javascript][122]                                                    |![js]
+Leetcode         |[Count Sub Islands][123]                                                              |![rb]
 DailyRuby        |[Double Strings][1o]                                                                  |![rb]
 HackerRank       |[Plus Minus][1h]                                                                      |![rb]
 HackerRank       |[Min-Max Sum][2h]                                                                     |![rb]
@@ -275,6 +276,7 @@ Other            |[Largest Number][ot1]                                         
 [120]:Leetcode/spiral_matrix_III/
 [121]:Leetcode/find_k-th_smallest_pair_distance/
 [122]:Leetcode/lemonade_change/
+[123]:Leetcode/count_sub_islands/
 
 [1o]:Other/double_string/
 
