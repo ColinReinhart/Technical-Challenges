@@ -133,6 +133,7 @@ Leetcode         |[Lemonade Change- Python][122]                                
 Leetcode         |[Lemonade Change- Javascript][122]                                                    |![js]
 Leetcode         |[Count Sub Islands][123]                                                              |![rb]
 Leetcode         |[Most Stones Removed with Same Row or Column][124]                                    |![rb]
+Leetcode         |[Walking Robot Simulation][125]                                                       |![rb]
 DailyRuby        |[Double Strings][1o]                                                                  |![rb]
 HackerRank       |[Plus Minus][1h]                                                                      |![rb]
 HackerRank       |[Min-Max Sum][2h]                                                                     |![rb]
@@ -278,7 +279,8 @@ Other            |[Largest Number][ot1]                                         
 [121]:Leetcode/find_k-th_smallest_pair_distance/
 [122]:Leetcode/lemonade_change/
 [123]:Leetcode/count_sub_islands/
-[124]:Leetcode/most_stones_removed/
+[124]:Leetcode/most_stones_removed/ 
+[125]:Leetcode/walking_robot_simulation/ 
 
 [1o]:Other/double_string/
 
