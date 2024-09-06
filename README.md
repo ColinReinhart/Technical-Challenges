@@ -134,6 +134,7 @@ Leetcode         |[Lemonade Change- Javascript][122]                            
 Leetcode         |[Count Sub Islands][123]                                                              |![rb]
 Leetcode         |[Most Stones Removed with Same Row or Column][124]                                    |![rb]
 Leetcode         |[Walking Robot Simulation][125]                                                       |![rb]
+Leetcode         |[Find Missing Observations][126]                                                      |![rb]
 DailyRuby        |[Double Strings][1o]                                                                  |![rb]
 HackerRank       |[Plus Minus][1h]                                                                      |![rb]
 HackerRank       |[Min-Max Sum][2h]                                                                     |![rb]
@@ -281,6 +282,7 @@ Other            |[Largest Number][ot1]                                         
 [123]:Leetcode/count_sub_islands/
 [124]:Leetcode/most_stones_removed/ 
 [125]:Leetcode/walking_robot_simulation/ 
+[126]:Leetcode/find_missing_observations/
 
 [1o]:Other/double_string/
 
