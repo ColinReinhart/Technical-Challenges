@@ -138,6 +138,8 @@ Leetcode         |[Find Missing Observations][126]                              
 Leetcode         |[Delete Nodes From Linked List Present in Array][127]                                 |![rb]
 Leetcode         |[Minimum Bit Flips to Convert Number][128]                                            |![rb]
 Leetcode         |[Count the Number of Consistent Strings][129]                                         |![rb]
+Leetcode         |[Minimum Time Difference][130]                                                        |![rb]
+Leetcode         |[Uncommon Words from Two Sentences][131]                                              |![rb]
 DailyRuby        |[Double Strings][1o]                                                                  |![rb]
 HackerRank       |[Plus Minus][1h]                                                                      |![rb]
 HackerRank       |[Min-Max Sum][2h]                                                                     |![rb]
@@ -289,6 +291,8 @@ Other            |[Largest Number][ot1]                                         
 [127]:Leetcode/delete_nodes_from_linked_list_present_in_array/
 [128]:Leetcode/minimum_flips_to_convert_number/
 [129]:Leetcode/count_the_number_of_consistent_strings/
+[130]:Leetcode/minimum_time_difference/
+[130]:Leetcode/uncommon_words_from_two_sentences/
 
 [1o]:Other/double_string/
 
