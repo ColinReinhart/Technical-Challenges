@@ -292,7 +292,7 @@ Other            |[Largest Number][ot1]                                         
 [128]:Leetcode/minimum_flips_to_convert_number/
 [129]:Leetcode/count_the_number_of_consistent_strings/
 [130]:Leetcode/minimum_time_difference/
-[130]:Leetcode/uncommon_words_from_two_sentences/
+[131]:Leetcode/uncommon_words_from_two_sentences/
 
 [1o]:Other/double_string/
 
