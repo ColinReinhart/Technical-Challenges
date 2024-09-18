@@ -141,6 +141,7 @@ Leetcode         |[Count the Number of Consistent Strings][129]                 
 Leetcode         |[Minimum Time Difference][130]                                                        |![rb]
 Leetcode         |[Uncommon Words from Two Sentences][131]                                              |![rb]
 Leetcode         |[Integer to Roman][132]                                                               |![rb]
+Leetcode         |[Largest Number][133]                                                                 |![rb]
 DailyRuby        |[Double Strings][1o]                                                                  |![rb]
 HackerRank       |[Plus Minus][1h]                                                                      |![rb]
 HackerRank       |[Min-Max Sum][2h]                                                                     |![rb]
@@ -295,6 +296,7 @@ Other            |[Largest Number][ot1]                                         
 [130]:Leetcode/minimum_time_difference/
 [131]:Leetcode/uncommon_words_from_two_sentences/
 [132]:Leetcode/integer_to_roman/
+[133]:Leetcode/largest_number/
 
 [1o]:Other/double_string/
 
