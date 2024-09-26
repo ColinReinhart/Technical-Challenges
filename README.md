@@ -142,6 +142,8 @@ Leetcode         |[Minimum Time Difference][130]                                
 Leetcode         |[Uncommon Words from Two Sentences][131]                                              |![rb]
 Leetcode         |[Integer to Roman][132]                                                               |![rb]
 Leetcode         |[Largest Number][133]                                                                 |![rb]
+Leetcode         |[Sum of Prefix Scores of Strings][134]                                                |![rb]
+Leetcode         |[3Sum Closest][135]                                                                   |![rb]
 DailyRuby        |[Double Strings][1o]                                                                  |![rb]
 HackerRank       |[Plus Minus][1h]                                                                      |![rb]
 HackerRank       |[Min-Max Sum][2h]                                                                     |![rb]
@@ -297,6 +299,8 @@ Other            |[Largest Number][ot1]                                         
 [131]:Leetcode/uncommon_words_from_two_sentences/
 [132]:Leetcode/integer_to_roman/
 [133]:Leetcode/largest_number/
+[134]:Leetcode/sum_of_prefix_scores_of_strings/
+[135]:Leetcode/3sum_closest/
 
 [1o]:Other/double_string/
 
