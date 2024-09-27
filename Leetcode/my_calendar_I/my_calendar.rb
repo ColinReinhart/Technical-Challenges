@@ -3,17 +3,16 @@ class MyCalendar
       @calendar = []
     end
 
-
-=begin
-    :type start: Integer
-    :type end: Integer
-    :rtype: Boolean
-=end
     def book(start, finish)
-      require 'pry'; binding.pry
+      @calendar.each do |event_start, event_end|
+        if start < event_end && event_start < finish
+          return false
+        end
+      end
+
+      @calendar << [start, finish]
+      return true
     end
-
-
 end
 
 myCalendar = MyCalendar.new
