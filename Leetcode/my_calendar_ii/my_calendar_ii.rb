@@ -1,6 +1,7 @@
 class MyCalendarTwo
     def initialize()
-        @calendar = []
+        @single_bookings = []
+        @double_bookings = []
     end
 
 
@@ -10,10 +11,24 @@ class MyCalendarTwo
     :rtype: Boolean
 =end
     def book(start, finish)
-        require 'pry'; binding.pry
+      @double_bookings .each do |db_start, db_end|
+        if [start, db_start].max < [finish, db_end].min
+          return false
+        end
+      end
+
+      @single_bookings.each do |sb_start, sb_end|
+        overlap_start = [start, sb_start].max
+        overlap_end = [finish, sb_end].min
+
+        if overlap_start < overlap_end
+          @double_bookings << [overlap_start, overlap_end]
+        end
+      end
+
+      @single_bookings << [start, finish]
+      return true
     end
-
-
 end
 
 myCalendar = MyCalendarTwo.new
