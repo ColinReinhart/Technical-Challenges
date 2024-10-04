@@ -1,20 +1,22 @@
 # @param {Integer[]} skill
 # @return {Integer}
 def divide_players(skill)
-  arr = []
-  target = skill.max + skill.min
-
+  answer = 0
   skill.sort!
-  until skill == []
-    if skill.max + skill.min != target
+  target = skill.first + skill.last
+
+  left = 0
+  right = skill.length - 1
+
+  while left < right
+    if skill[left] + skill[right] != target
       return -1
-    else
-      arr << [skill.shift, skill.pop]
     end
+    answer += skill[left] * skill[right]
+    left += 1
+    right -= 1
   end
 
-  answer = 0
-  arr.each { |x, y| answer += x * y }
   answer
 end
 
