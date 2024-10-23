@@ -1,25 +1,34 @@
-670. Maximum Swap
-Medium
-Topics
-Companies
-You are given an integer num. You can swap two digits at most once to get the maximum valued number.
+## 670. Maximum Swap
+**Medium**
+
+### Topics: Math, Greedy
+### Companies: Meta, Microsoft, TikTok, Google, Amazon, Apple
+
+You are given an integer `num`. You can swap two digits at most once to get the maximum valued number.
 
 Return the maximum valued number you can get.
 
- 
+### Example 1:
+**Input**: 
 
-Example 1:
+num = 2736
 
-Input: num = 2736
-Output: 7236
-Explanation: Swap the number 2 and the number 7.
-Example 2:
+**Output**: 
 
-Input: num = 9973
-Output: 9973
-Explanation: No swap.
- 
+7236
 
-Constraints:
+**Explanation**: Swap the number 2 and the number 7.
 
-0 <= num <= 108
+### Example 2:
+**Input**: 
+
+num = 9973
+
+**Output**: 
+
+9973
+
+**Explanation**: No swap is needed.
+
+### Constraints:
+- `0 <= num <= 10^8`
