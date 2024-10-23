@@ -147,6 +147,7 @@ Leetcode         |[3Sum Closest][135]                                           
 Leetcode         |[My Calendar I][136]                                                                  |![rb]
 Leetcode         |[My Calendar II][137]                                                                 |![rb]
 Leetcode         |[Divide Players Into Teams of Equal Skill][138]                                       |![rb]
+Leetcode         |[Maximum Swap][139]                                                                   |![rb]
 DailyRuby        |[Double Strings][1o]                                                                  |![rb]
 HackerRank       |[Plus Minus][1h]                                                                      |![rb]
 HackerRank       |[Min-Max Sum][2h]                                                                     |![rb]
@@ -307,6 +308,7 @@ Other            |[Largest Number][ot1]                                         
 [136]:Leetcode/my_calendar_I/
 [137]:Leetcode/my_calendar_ii/
 [138]:Leetcode/divide_players_into_teams_of_equal_skill/
+[139]:Leetcode/maximum_swap/
 
 [1o]:Other/double_string/
 
