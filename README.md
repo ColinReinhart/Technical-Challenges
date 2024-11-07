@@ -149,6 +149,7 @@ Leetcode         |[My Calendar II][137]                                         
 Leetcode         |[Divide Players Into Teams of Equal Skill][138]                                       |![rb]
 Leetcode         |[Maximum Swap][139]                                                                   |![rb]
 Leetcode         |[Delete Characters to Make Fancy String][140]                                         |![rb]
+Leetcode         |[Circular Sentence][141]                                                              |![rb]
 DailyRuby        |[Double Strings][1o]                                                                  |![rb]
 HackerRank       |[Plus Minus][1h]                                                                      |![rb]
 HackerRank       |[Min-Max Sum][2h]                                                                     |![rb]
@@ -311,6 +312,7 @@ Other            |[Largest Number][ot1]                                         
 [138]:Leetcode/divide_players_into_teams_of_equal_skill/
 [139]:Leetcode/maximum_swap/
 [140]:Leetcode/delete_characters_to_make_fancy_string/
+[141]:Leetcode/circular_sentence/
 
 [1o]:Other/double_string/
 
