@@ -2,7 +2,16 @@
 # @param {String} goal
 # @return {Boolean}
 def rotate_string(s, goal)
-  require 'pry'; binding.pry
+  return true if s == goal
+  wip = s.split('')
+
+  wip.length.times do
+    wip << wip.shift
+    if wip.join('') == goal
+      return true
+    end
+  end
+  return false
 end
 
 p rotate_string("abcde", "cdeab") #true
