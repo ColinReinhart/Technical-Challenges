@@ -151,6 +151,7 @@ Leetcode         |[Maximum Swap][139]                                           
 Leetcode         |[Delete Characters to Make Fancy String][140]                                         |![rb]
 Leetcode         |[Circular Sentence][141]                                                              |![rb]
 Leetcode         |[Largest Combination With Bitwise AND Greater Than Zero][142]                         |![rb]
+Leetcode         |[Maximum XOR for Each Query][143]                                                     |![rb]
 DailyRuby        |[Double Strings][1o]                                                                  |![rb]
 HackerRank       |[Plus Minus][1h]                                                                      |![rb]
 HackerRank       |[Min-Max Sum][2h]                                                                     |![rb]
@@ -315,6 +316,7 @@ Other            |[Largest Number][ot1]                                         
 [140]:Leetcode/delete_characters_to_make_fancy_string/
 [141]:Leetcode/circular_sentence/
 [142]:Leetcode/largest_combination_with_bitwise_and_greater_than_zero/
+[143]:Leetcode/maximum_xor_for_each_query/
 
 [1o]:Other/double_string/
 
