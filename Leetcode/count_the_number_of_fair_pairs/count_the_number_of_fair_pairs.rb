@@ -3,20 +3,18 @@
 # @param {Integer} upper
 # @return {Integer}
 def count_fair_pairs(nums, lower, upper)
-  left = 0
-  right = 1
-  final = nums.length - 1
+  nums.sort!
   count = 0
 
-  until left == final
-    until right == nums.length
-      if nums[left] + nums[right] >= lower && nums[left] + nums[right] <= upper
-        count += 1
-      end
-      right += 1
-    end
-    left += 1
-    right = left +1
+  nums.each_with_index do |num, i|
+    min_val = lower - num
+    max_val = upper - num
+
+    left_bound = nums.bsearch_index { |x| x >= min_val } || nums.size
+    right_bound = nums.bsearch_index { |x| x > max_val } || nums.size
+
+    left_bound = [left_bound, i + 1].max
+    count += [0, right_bound - left_bound].max
   end
 
   count
