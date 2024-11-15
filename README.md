@@ -154,6 +154,7 @@ Leetcode         |[Largest Combination With Bitwise AND Greater Than Zero][142] 
 Leetcode         |[Maximum XOR for Each Query][143]                                                     |![rb]
 Leetcode         |[Rotate String][144]                                                                  |![rb]
 Leetcode         |[Minimized Maximum of Products Distributed to Any Store][145]                         |![rb]
+Leetcode         |[Shortest Subarray to be Removed to Make Array Sorted][146]                           |![rb]
 DailyRuby        |[Double Strings][1o]                                                                  |![rb]
 HackerRank       |[Plus Minus][1h]                                                                      |![rb]
 HackerRank       |[Min-Max Sum][2h]                                                                     |![rb]
@@ -321,6 +322,7 @@ Other            |[Largest Number][ot1]                                         
 [143]:Leetcode/maximum_xor_for_each_query/
 [144]:Leetcode/rotate_string/
 [145]:Leetcode/minimized_maximum/
+[146]:Leetcode/shortest_subarray_to_be_removed_to_make_array_sorted/
 
 [1o]:Other/double_string/
 
