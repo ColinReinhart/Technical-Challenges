@@ -2,21 +2,20 @@
 # @param {Integer} k
 # @return {Integer[]}
 def results_array(nums, k)
-  left = 0
-  right = k - 1
-  answers = []
+  results = []
 
-  until right == nums.count
-    if nums[left..right] == (nums[left..right].min..nums[left..right].max).to_a.sort
-      answers << nums[left..right].max
+  (0..nums.size - k).each do |i|
+    window = nums[i, k]
+    min_val, max_val = window.min, window.max
+
+    if window.sort == (min_val..max_val).to_a && window == window.sort
+      results << max_val
     else
-      answers << -1
+      results << -1
     end
-    left += 1
-    right += 1
   end
 
-  answers
+  results
 end
 
 p results_array([1,2,3,4,3,2,5], 3) #[3,4,-1,-1,-1]
