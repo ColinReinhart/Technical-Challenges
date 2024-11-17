@@ -156,6 +156,7 @@ Leetcode         |[Rotate String][144]                                          
 Leetcode         |[Minimized Maximum of Products Distributed to Any Store][145]                         |![rb]
 Leetcode         |[Shortest Subarray to be Removed to Make Array Sorted][146]                           |![rb]
 Leetcode         |[Find The Power of K-Size Subarrays I][147]                                           |![rb]
+Leetcode         |[Shortest Subarray with Sum of at Least k][148]                                       |![rb]
 DailyRuby        |[Double Strings][1o]                                                                  |![rb]
 HackerRank       |[Plus Minus][1h]                                                                      |![rb]
 HackerRank       |[Min-Max Sum][2h]                                                                     |![rb]
@@ -325,6 +326,7 @@ Other            |[Largest Number][ot1]                                         
 [145]:Leetcode/minimized_maximum/
 [146]:Leetcode/shortest_subarray_to_be_removed_to_make_array_sorted/
 [147]:Leetcode/find_the_power_of_k-size_subarrays_I/
+[148]:Leetcode/shortest_subarray_with_sum_at_least_k/
 
 [1o]:Other/double_string/
 
