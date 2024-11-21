@@ -13,7 +13,7 @@ Leetcode         |[Search in Rotated Sorted Array][9]                           
 Leetcode         |[Target and Payload][10]                                                              |![rb]
 Leetcode         |[Text Justification][11]                                                              |![rb]
 Leetcode         |[Top K Frequent Elements][12]                                                         |![rb]
-Leetcode         |[Two Sums][13]                                                                        |![rb]
+Leetcode         |[Two Sum][13]                                                                        |![rb]
 Leetcode         |[Verify ISBN][14]                                                                     |![rb]
 Leetcode         |[What Did I Order][15]                                                                |![rb]
 Leetcode         |[Median of Two Sorted Arrays][16]                                                     |![rb]
@@ -192,7 +192,7 @@ Other            |[Largest Number][ot1]                                         
 [10]:Leetcode/target_and_payload.rb/
 [11]:Leetcode/text_justification/
 [12]:Leetcode/top_k_frequent_elements/
-[13]:Leetcode/two_sums/
+[13]:Leetcode/two_sum/
 [14]:Leetcode/verify_isbn/
 [15]:Leetcode/what_did_I_order/
 [16]:Leetcode/median_of_two_sorted_arrays/
