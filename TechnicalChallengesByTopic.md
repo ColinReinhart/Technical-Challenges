@@ -50,6 +50,8 @@
 
 1. [Regular Expression Matching][107]
 
+</details>
+
 ---
 
 ## Two Pointer
@@ -57,6 +59,8 @@
 <summary>Click to expand</summary>
 
 1. [3 Sum Closest][135]
+
+</details>
 
 ---
 
@@ -66,6 +70,7 @@
 
 1. [3 Sum Closest][135]
 
+</details>
 
 [1]:Leetcode/add_two_numbers
 [2]:Leetcode/character_count
