@@ -16,7 +16,8 @@
 1. [Defuse the Bomb][149]
 2. [Two Sum][13]
 3. [Median of Two Sorted Arrays][16]
-3. [Container with Most Water][96]
+4. [Container with Most Water][96]
+5. [Flip Columns for Maximum Number of Equal Rows][150]
 
 
 </details>
@@ -69,6 +70,24 @@
 <summary>Click to expand</summary>
 
 1. [3 Sum Closest][135]
+
+</details>
+---
+
+## Hash Tables
+<details>
+<summary>Click to expand</summary>
+
+1. [Flip Columns for Maximum Number of Equal Rows][150]
+
+</details>
+---
+
+## Matrix
+<details>
+<summary>Click to expand</summary>
+
+1. [Flip Columns for Maximum Number of Equal Rows][150]
 
 </details>
 
@@ -221,3 +240,4 @@
 [147]:Leetcode/find_the_power_of_k-size_subarrays_I/
 [148]:Leetcode/shortest_subarray_with_sum_at_least_k/
 [149]:Leetcode/defuse_the_bomb/
+[150]:Leetcode/flip_columns_for_maximum_number_of_equal_rows/
