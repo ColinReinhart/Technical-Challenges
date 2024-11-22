@@ -6,7 +6,7 @@ def is_valid(s)
 
   s.each_char do |char|
     if matching_bracket.values.include?(char)
-      stack.push(char) # Push open brackets
+      stack.push(char)
     elsif matching_bracket.key?(char)
       return false if stack.empty? || stack.pop != matching_bracket[char]
     end

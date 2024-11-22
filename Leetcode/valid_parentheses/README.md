@@ -1,44 +1,65 @@
-20. Valid Parentheses
-Easy
-Topics
-Companies
-Hint
-Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
+# 20. Valid Parentheses
 
-An input string is valid if:
+**Difficulty:** Easy  
+**Topics:** Stack, String  
 
-Open brackets must be closed by the same type of brackets.
-Open brackets must be closed in the correct order.
-Every close bracket has a corresponding open bracket of the same type.
- 
+## Problem Description
 
-Example 1:
+Given a string `s` containing just the characters `'('`, `')'`, `'{'`, `'}'`, `'['`, and `']'`, determine if the input string is **valid**.  
 
-Input: s = "()"
+An input string is valid if:  
+1. Open brackets must be closed by the same type of brackets.  
+2. Open brackets must be closed in the correct order.  
+3. Every close bracket has a corresponding open bracket of the same type.  
 
-Output: true
+---
 
-Example 2:
+## Examples
 
-Input: s = "()[]{}"
+### Example 1:
+**Input:**  
+`s = "()"`  
+**Output:**  
+`true`  
 
-Output: true
+### Example 2:
+**Input:**  
+`s = "()[]{}"`  
+**Output:**  
+`true`  
 
-Example 3:
+### Example 3:
+**Input:**  
+`s = "(]"`  
+**Output:**  
+`false`  
 
-Input: s = "(]"
+### Example 4:
+**Input:**  
+`s = "([])"`  
+**Output:**  
+`true`  
 
-Output: false
+---
 
-Example 4:
+## Constraints
 
-Input: s = "([])"
+- `1 <= s.length <= 10^4`  
+- `s` consists of parentheses only `'()[]{}'`.  
 
-Output: true
+---
 
- 
+## Approach
 
-Constraints:
+A **stack** is the ideal data structure for this problem because it follows the **Last In, First Out (LIFO)** principle, which helps check the nesting and order of the brackets.
 
-1 <= s.length <= 104
-s consists of parentheses only '()[]{}'.
+### Algorithm:
+1. Use a stack to keep track of open brackets.
+2. For each character in the string:
+   - If it is an open bracket (`'('`, `'{'`, `'['`), push it onto the stack.
+   - If it is a close bracket (`')'`, `'}'`, `']'`), check:
+     - If the stack is empty, return `false` (unmatched closing bracket).
+     - Otherwise, pop the stack and verify it matches the current closing bracket.
+3. After processing all characters, ensure the stack is empty (unmatched open brackets mean invalid input).
+
+---
