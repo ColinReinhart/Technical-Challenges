@@ -6,6 +6,11 @@
 - [Hash Map](#hash-map)
 - [Dynamic Programming](#dynamic-programming)
 - [Two Pointers](#two-pointers)
+- [Sorting](#sorting)
+- [Hash Tables](#hash-tables)
+- [Matrix](#matrix)
+- [Stack](#stack)
+- [String](#string)
 
 ---
 
@@ -88,6 +93,24 @@
 <summary>Click to expand</summary>
 
 1. [Flip Columns for Maximum Number of Equal Rows][150]
+
+</details>
+---
+
+## Stack
+<details>
+<summary>Click to expand</summary>
+
+1. [Valid Parentheses][151]
+
+</details>
+---
+
+## String
+<details>
+<summary>Click to expand</summary>
+
+1. [Valid Parentheses][151]
 
 </details>
 
