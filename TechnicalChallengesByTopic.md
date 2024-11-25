@@ -11,6 +11,7 @@
 - [Matrix](#matrix)
 - [Stack](#stack)
 - [String](#string)
+- [Beadth-First Search](#breadth-first-search)
 
 ---
 
@@ -77,6 +78,7 @@
 1. [3 Sum Closest][135]
 
 </details>
+
 ---
 
 ## Hash Tables
@@ -86,6 +88,7 @@
 1. [Flip Columns for Maximum Number of Equal Rows][150]
 
 </details>
+
 ---
 
 ## Matrix
@@ -93,8 +96,10 @@
 <summary>Click to expand</summary>
 
 1. [Flip Columns for Maximum Number of Equal Rows][150]
+2. [Sliding Puzzle][152]
 
 </details>
+
 ---
 
 ## Stack
@@ -104,6 +109,7 @@
 1. [Valid Parentheses][151]
 
 </details>
+
 ---
 
 ## String
@@ -111,6 +117,16 @@
 <summary>Click to expand</summary>
 
 1. [Valid Parentheses][151]
+
+</details>
+
+---
+
+## Breadth-First Search
+<details>
+<summary>Click to expand</summary>
+
+1. [Sliding Puzzle][152]
 
 </details>
 
@@ -264,3 +280,5 @@
 [148]:Leetcode/shortest_subarray_with_sum_at_least_k/
 [149]:Leetcode/defuse_the_bomb/
 [150]:Leetcode/flip_columns_for_maximum_number_of_equal_rows/
+[151]:Leetcode/valid_parentheses/
+[152]:Leetcode/sliding_puzzle/
