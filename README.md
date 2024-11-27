@@ -160,7 +160,8 @@ Leetcode         |[Shortest Subarray with Sum of at Least k][148]               
 Leetcode         |[Defuse the Bomb][149]                                                                |![rb]
 Leetcode         |[Flip Columns for Maximum Number of Equal Rows][150]                                  |![rb]
 Leetcode         |[Valid Parentheses][151]                                                              |![rb]
-Leetcode         |[Sliding Puzzle][152]                                                                |![rb]
+Leetcode         |[Sliding Puzzle][152]                                                                 |![rb]
+Leetcode         |[Shortest Distance After Road Addition Queries I][153]                                |![rb]
 DailyRuby        |[Double Strings][1o]                                                                  |![rb]
 HackerRank       |[Plus Minus][1h]                                                                      |![rb]
 HackerRank       |[Min-Max Sum][2h]                                                                     |![rb]
@@ -335,6 +336,7 @@ Other            |[Largest Number][ot1]                                         
 [150]:Leetcode/flip_columns_for_maximum_number_of_equal_rows/
 [151]:Leetcode/valid_parentheses/
 [152]:Leetcode/sliding_puzzle/
+[153]:Leetcode/shortest_distance_after_road_addition_queries_i/
 
 [1o]:Other/double_string/
 
