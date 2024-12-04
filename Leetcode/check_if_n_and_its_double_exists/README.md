@@ -1,10 +1,18 @@
 # Problem: 1346. Check If N and Its Double Exist
 
+**Difficulty:** Easy  
+**Topics:** Array, Hash Table, Two Pointers, Binary Search, Sorting  
+**Companies:** Bloomberg, Google, Amazon, Adobe  
+
+---
+
 Given an array `arr` of integers, check if there exist two indices `i` and `j` such that:
 
 - `i != j`
 - `0 <= i, j < arr.length`
 - `arr[i] == 2 * arr[j]`
+
+---
 
 ## Example 1:
 **Input:**  
