@@ -162,6 +162,7 @@ Leetcode         |[Flip Columns for Maximum Number of Equal Rows][150]          
 Leetcode         |[Valid Parentheses][151]                                                              |![rb]
 Leetcode         |[Sliding Puzzle][152]                                                                 |![rb]
 Leetcode         |[Shortest Distance After Road Addition Queries I][153]                                |![rb]
+Leetcode         |[Check if N and its Double Exists][154]                                               |![rb]
 DailyRuby        |[Double Strings][1o]                                                                  |![rb]
 HackerRank       |[Plus Minus][1h]                                                                      |![rb]
 HackerRank       |[Min-Max Sum][2h]                                                                     |![rb]
@@ -337,6 +338,7 @@ Other            |[Largest Number][ot1]                                         
 [151]:Leetcode/valid_parentheses/
 [152]:Leetcode/sliding_puzzle/
 [153]:Leetcode/shortest_distance_after_road_addition_queries_i/
+[154]:Leetcode/check_if_n_and_its_double_exists/
 
 [1o]:Other/double_string/
 
