@@ -13,6 +13,7 @@
 - [String](#string)
 - [Beadth-First Search](#breadth-first-search)
 - [Graph](#graph)
+- [Binary Search](#binary-search)
 
 ---
 
@@ -26,6 +27,7 @@
 4. [Container with Most Water][96]
 5. [Flip Columns for Maximum Number of Equal Rows][150]
 6. [Shortest Distance After Road Addition Queries I][153]
+7. [Check if N and its Double Exists][154]
 
 
 </details>
@@ -68,6 +70,7 @@
 <summary>Click to expand</summary>
 
 1. [3 Sum Closest][135]
+2. [Check if N and its Double Exists][154]
 
 </details>
 
@@ -78,6 +81,7 @@
 <summary>Click to expand</summary>
 
 1. [3 Sum Closest][135]
+2. [Check if N and its Double Exists][154]
 
 </details>
 
@@ -88,6 +92,7 @@
 <summary>Click to expand</summary>
 
 1. [Flip Columns for Maximum Number of Equal Rows][150]
+2. [Check if N and its Double Exists][154]
 
 </details>
 
@@ -140,6 +145,16 @@
 <summary>Click to expand</summary>
 
 1. [Shortest Distance After Road Addition Queries I][153]
+
+</details>
+
+---
+
+## Binary Search
+<details>
+<summary>Click to expand</summary>
+
+1. [Check if N and its Double Exists][154]
 
 </details>
 
@@ -296,3 +311,4 @@
 [151]:Leetcode/valid_parentheses/
 [152]:Leetcode/sliding_puzzle/
 [153]:Leetcode/shortest_distance_after_road_addition_queries_i/
+[154]:Leetcode/check_if_n_and_its_double_exists/
