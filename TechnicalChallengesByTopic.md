@@ -71,6 +71,7 @@
 
 1. [3 Sum Closest][135]
 2. [Check if N and its Double Exists][154]
+3. [Move Pieces to Obtain a String][155]
 
 </details>
 
@@ -124,6 +125,7 @@
 <summary>Click to expand</summary>
 
 1. [Valid Parentheses][151]
+2. [Move Pieces to Obtain a String][155]
 
 </details>
 
@@ -312,3 +314,4 @@
 [152]:Leetcode/sliding_puzzle/
 [153]:Leetcode/shortest_distance_after_road_addition_queries_i/
 [154]:Leetcode/check_if_n_and_its_double_exists/
+[155]:Leetcode/move_pieces_to_obtain_a_string/
