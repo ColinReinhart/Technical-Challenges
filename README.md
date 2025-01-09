@@ -164,6 +164,7 @@ Leetcode         |[Sliding Puzzle][152]                                         
 Leetcode         |[Shortest Distance After Road Addition Queries I][153]                                |![rb]
 Leetcode         |[Check if N and its Double Exists][154]                                               |![rb]
 Leetcode         |[Move Pieces to Obtain a String][155]                                                 |![rb]
+Leetcode         |[Final Prices with a Special Discount in a Shop][156]                                 |![rb]
 DailyRuby        |[Double Strings][1o]                                                                  |![rb]
 HackerRank       |[Plus Minus][1h]                                                                      |![rb]
 HackerRank       |[Min-Max Sum][2h]                                                                     |![rb]
@@ -341,6 +342,7 @@ Other            |[Largest Number][ot1]                                         
 [153]:Leetcode/shortest_distance_after_road_addition_queries_i/
 [154]:Leetcode/check_if_n_and_its_double_exists/
 [155]:Leetcode/move_pieces_to_obtain_a_string/
+[156]:Leetcode/final_prices_with_a_special_discount_in_a_shop/
 
 [1o]:Other/double_string/
 
