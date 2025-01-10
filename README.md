@@ -166,6 +166,7 @@ Leetcode         |[Check if N and its Double Exists][154]                       
 Leetcode         |[Move Pieces to Obtain a String][155]                                                 |![rb]
 Leetcode         |[Final Prices with a Special Discount in a Shop][156]                                 |![rb]
 Leetcode         |[Counting Words with a Given Prefix][157]                                             |![rb]
+Leetcode         |[Word Subsets][158]                                                                   |![rb]
 DailyRuby        |[Double Strings][1o]                                                                  |![rb]
 HackerRank       |[Plus Minus][1h]                                                                      |![rb]
 HackerRank       |[Min-Max Sum][2h]                                                                     |![rb]
@@ -345,6 +346,7 @@ Other            |[Largest Number][ot1]                                         
 [155]:Leetcode/move_pieces_to_obtain_a_string/
 [156]:Leetcode/final_prices_with_a_special_discount_in_a_shop/
 [157]:Leetcode/counting_words_with_a_given_prefix/
+[158]:Leetcode/word_subsets/
 
 [1o]:Other/double_string/
 
