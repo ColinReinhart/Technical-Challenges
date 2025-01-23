@@ -14,6 +14,9 @@
 - [Beadth-First Search](#breadth-first-search)
 - [Graph](#graph)
 - [Binary Search](#binary-search)
+- [Tree](#tree)
+- [Depth First Search](#depth-first-search)
+- [Binary Tree](#binary-tree)
 
 ---
 
@@ -157,6 +160,36 @@
 <summary>Click to expand</summary>
 
 1. [Check if N and its Double Exists][154]
+
+</details>
+
+---
+
+## Tree
+<details>
+<summary>Click to expand</summary>
+
+1. [Same Tree][156]
+
+</details>
+
+---
+
+## Depth First Search
+<details>
+<summary>Click to expand</summary>
+
+1. [Same Tree][156]
+
+</details>
+
+---
+
+## Binary Tree
+<details>
+<summary>Click to expand</summary>
+
+1. [Same Tree][156]
 
 </details>
 
@@ -315,3 +348,4 @@
 [153]:Leetcode/shortest_distance_after_road_addition_queries_i/
 [154]:Leetcode/check_if_n_and_its_double_exists/
 [155]:Leetcode/move_pieces_to_obtain_a_string/
+[156]:Leetcode/same_tree/
