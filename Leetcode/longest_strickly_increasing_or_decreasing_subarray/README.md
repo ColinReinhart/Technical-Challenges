@@ -1,63 +1,62 @@
-3105. Longest Strictly Increasing or Strictly Decreasing Subarray
-Difficulty: Easy
-Topics: Array
-Companies: Yandex, Larsen & Toubro
+# 3105. Longest Strictly Increasing or Strictly Decreasing Subarray
 
-You are given an array of integers nums. Return the length of the longest 
-subarray
- of nums which is either 
-strictly increasing
- or 
-strictly decreasing
-.
+**Difficulty**: Easy  
+**Topics**: Array  
+**Companies**: Yandex, Larsen & Toubro  
 
- 
+---
 
-Example 1:
+## Problem Description
 
-Input: nums = [1,4,3,3,2]
+You are given an array of integers `nums`. Return the length of the longest subarray of `nums` which is either **strictly increasing** or **strictly decreasing**.
 
-Output: 2
+---
 
-Explanation:
+## Examples
 
-The strictly increasing subarrays of nums are [1], [2], [3], [3], [4], and [1,4].
+### Example 1:
+**Input**:  
+`nums = [1,4,3,3,2]`  
 
-The strictly decreasing subarrays of nums are [1], [2], [3], [3], [4], [3,2], and [4,3].
+**Output**:  
+`2`  
 
-Hence, we return 2.
+**Explanation**:  
+The strictly increasing subarrays of `nums` are `[1]`, `[2]`, `[3]`, `[3]`, `[4]`, and `[1,4]`.  
+The strictly decreasing subarrays of `nums` are `[1]`, `[2]`, `[3]`, `[3]`, `[4]`, `[3,2]`, and `[4,3]`.  
+Hence, we return `2`.
 
-Example 2:
+---
 
-Input: nums = [3,3,3,3]
+### Example 2:
+**Input**:  
+`nums = [3,3,3,3]`  
 
-Output: 1
+**Output**:  
+`1`  
 
-Explanation:
+**Explanation**:  
+The strictly increasing subarrays of `nums` are `[3]`, `[3]`, `[3]`, and `[3]`.  
+The strictly decreasing subarrays of `nums` are `[3]`, `[3]`, `[3]`, and `[3]`.  
+Hence, we return `1`.
 
-The strictly increasing subarrays of nums are [3], [3], [3], and [3].
+---
 
-The strictly decreasing subarrays of nums are [3], [3], [3], and [3].
+### Example 3:
+**Input**:  
+`nums = [3,2,1]`  
 
-Hence, we return 1.
+**Output**:  
+`3`  
 
-Example 3:
+**Explanation**:  
+The strictly increasing subarrays of `nums` are `[3]`, `[2]`, and `[1]`.  
+The strictly decreasing subarrays of `nums` are `[3]`, `[2]`, `[1]`, `[3,2]`, `[2,1]`, and `[3,2,1]`.  
+Hence, we return `3`.
 
-Input: nums = [3,2,1]
+---
 
-Output: 3
+## Constraints
 
-Explanation:
-
-The strictly increasing subarrays of nums are [3], [2], and [1].
-
-The strictly decreasing subarrays of nums are [3], [2], [1], [3,2], [2,1], and [3,2,1].
-
-Hence, we return 3.
-
- 
-
-Constraints:
-
-1 <= nums.length <= 50
-1 <= nums[i] <= 50
+- `1 <= nums.length <= 50`
+- `1 <= nums[i] <= 50`
