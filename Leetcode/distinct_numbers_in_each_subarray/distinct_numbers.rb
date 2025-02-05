@@ -2,17 +2,30 @@
 # @param {Integer} k
 # @return {Integer[]}
 def distinct_numbers(nums, k)
-  arr = []
-  l = 0
-  r = k - 1
+  return [] if nums.empty? || k > nums.size
 
-  until r == nums.length do
-    arr << nums[l..r].uniq.count
-    l += 1
-    r += 1
+  counts = Hash.new(0)
+  result = []
+
+  # Initialize the first window
+  (0...k).each do |i|
+    counts[nums[i]] += 1
+  end
+  result << counts.size
+
+  # Slide the window one element at a time
+  (k...nums.size).each do |i|
+    # Remove the element leaving the window
+    left_val = nums[i - k]
+    counts[left_val] -= 1
+    counts.delete(left_val) if counts[left_val] == 0
+
+    # Add the new element entering the window
+    counts[nums[i]] += 1
+    result << counts.size
   end
 
-  arr
+  result
 end
 
 p distinct_numbers([1,2,3,2,2,1,3], 3) #[3,2,2,2,3]
