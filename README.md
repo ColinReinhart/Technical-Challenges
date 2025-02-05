@@ -169,6 +169,7 @@ Leetcode         |[Counting Words with a Given Prefix][157]                     
 Leetcode         |[Word Subsets][158]                                                                   |![rb]
 Leetcode         |[Same Tree][159]                                                                      |![rb]
 Leetcode         |[Longest Strictly Increasing or Strickly Decreasing Subarray][160]                    |![rb]
+Leetcode         |[Check if One String Swap Can Make Strings Equal][161]                                |![rb]
 DailyRuby        |[Double Strings][1o]                                                                  |![rb]
 HackerRank       |[Plus Minus][1h]                                                                      |![rb]
 HackerRank       |[Min-Max Sum][2h]                                                                     |![rb]
@@ -351,6 +352,7 @@ Other            |[Largest Number][ot1]                                         
 [158]:Leetcode/word_subsets/
 [159]:Leetcode/same_tree/
 [160]:Leetcode/longest_strickly_increasing_or_decreasing_subarray/
+[161]:Leetcode/check_if_one_string_swap_can_make_strings_equal/
 
 [1o]:Other/double_string/
 
