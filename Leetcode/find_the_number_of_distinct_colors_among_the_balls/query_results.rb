@@ -3,11 +3,24 @@
 # @return {Integer[]}
 def query_results(limit, queries)
   results = []
-  hash = Hash.new(0)
+  ball_to_color = {}
+  color_count = Hash.new(0)
+  distinct_colors = 0
 
-  queries.each do |i,c|
-    hash[i] = c
-    results <<  hash.values.uniq.count
+  queries.each do |ball, color|
+    if ball_to_color.key?(ball)
+      old_color = ball_to_color[ball]
+      color_count[old_color] -= 1
+      distinct_colors -= 1 if color_count[old_color] == 0  # Remove empty colors
+    end
+
+    ball_to_color[ball] = color
+    if color_count[color] == 0
+      distinct_colors += 1
+    end
+    color_count[color] += 1
+
+    results << distinct_colors
   end
 
   results
