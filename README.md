@@ -172,6 +172,7 @@ Leetcode         |[Longest Strictly Increasing or Strickly Decreasing Subarray][
 Leetcode         |[Check if One String Swap Can Make Strings Equal][161]                                |![rb]
 Leetcode         |[Distinct Numbers in Each Subarray][162]                                              |![rb]
 Leetcode         |[Find the Number of Distinct Colors Among the Balls][163]                             |![rb]
+Leetcode         |[Clear Digits][164]                                                                   |![rb]
 DailyRuby        |[Double Strings][1o]                                                                  |![rb]
 HackerRank       |[Plus Minus][1h]                                                                      |![rb]
 HackerRank       |[Min-Max Sum][2h]                                                                     |![rb]
@@ -357,6 +358,7 @@ Other            |[Largest Number][ot1]                                         
 [161]:Leetcode/check_if_one_string_swap_can_make_strings_equal/
 [162]:Leetcode/distinct_numbers_in_each_subarray/
 [163]:Leetcode/find_the_number_of_distinct_colors_among_the_balls/
+[164]:Leetcode/clear_digits/
 
 [1o]:Other/double_string/
 
