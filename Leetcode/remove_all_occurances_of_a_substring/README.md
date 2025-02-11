@@ -1,40 +1,63 @@
-1910. Remove All Occurrences of a Substring
-Difficulty: Medium
-Topics: String, Stack, Simulation
-Companies: IBM, Google, Microsoft, Amazon, Bloomberg, Adobe, Zoho, Twitter, Yandex
-Hint
-Given two strings s and part, perform the following operation on s until all occurrences of the substring part are removed:
+# 1910. Remove All Occurrences of a Substring
 
-Find the leftmost occurrence of the substring part and remove it from s.
-Return s after removing all occurrences of part.
+**Difficulty:** Medium  
+**Topics:** String, Stack, Simulation  
+**Companies:** IBM, Google, Microsoft, Amazon, Bloomberg, Adobe, Zoho, Twitter, Yandex  
 
-A substring is a contiguous sequence of characters in a string.
+---
 
- 
+## 📜 Problem Statement
+Given two strings `s` and `part`, perform the following operation on `s` **until all occurrences** of the substring `part` are removed:
 
-Example 1:
+1. **Find the leftmost occurrence** of the substring `part` in `s`.
+2. **Remove it** from `s`.
+3. Repeat the process until `s` no longer contains `part`.
 
-Input: s = "daabcbaabcbc", part = "abc"
-Output: "dab"
-Explanation: The following operations are done:
-- s = "daabcbaabcbc", remove "abc" starting at index 2, so s = "dabaabcbc".
-- s = "dabaabcbc", remove "abc" starting at index 4, so s = "dababc".
-- s = "dababc", remove "abc" starting at index 3, so s = "dab".
+Return the final string `s` after all occurrences of `part` have been removed.
+
+A **substring** is a **contiguous sequence of characters** in a string.
+
+---
+
+## 🔍 Examples
+
+### **Example 1**
+#### **Input:**
+```ruby
+s = "daabcbaabcbc"
+part = "abc"
+
+Output:
+
+"dab"
+
+Explanation:
+	1.	s = "daabcbaabcbc", remove "abc" at index 2 → s = "dabaabcbc"
+	2.	s = "dabaabcbc", remove "abc" at index 4 → s = "dababc"
+	3.	s = "dababc", remove "abc" at index 3 → s = "dab"
+
 Now s has no occurrences of "abc".
-Example 2:
 
-Input: s = "axxxxyyyyb", part = "xy"
-Output: "ab"
-Explanation: The following operations are done:
-- s = "axxxxyyyyb", remove "xy" starting at index 4 so s = "axxxyyyb".
-- s = "axxxyyyb", remove "xy" starting at index 3 so s = "axxyyb".
-- s = "axxyyb", remove "xy" starting at index 2 so s = "axyb".
-- s = "axyb", remove "xy" starting at index 1 so s = "ab".
+Example 2
+
+Input:
+
+s = "axxxxyyyyb"
+part = "xy"
+
+Output:
+
+"ab"
+
+Explanation:
+	1.	s = "axxxxyyyyb", remove "xy" at index 4 → s = "axxxyyyb"
+	2.	s = "axxxyyyb", remove "xy" at index 3 → s = "axxyyb"
+	3.	s = "axxyyb", remove "xy" at index 2 → s = "axyb"
+	4.	s = "axyb", remove "xy" at index 1 → s = "ab"
+
 Now s has no occurrences of "xy".
- 
 
-Constraints:
-
-1 <= s.length <= 1000
-1 <= part.length <= 1000
-s​​​​​​ and part consists of lowercase English letters.
+🔹 Constraints
+	•	(1 \leq s.length \leq 1000)
+	•	(1 \leq part.length \leq 1000)
+	•	s and part consist of lowercase English letters only.
