@@ -1,35 +1,27 @@
 # @param {Integer[]} nums
 # @return {Integer}
 def maximum_sum(nums)
-  sums = [] #Create an empty array to store the sums of each digit in nums
-  pair_sums = [-1] #Start with -1 to later return max, if no other digit sums match it will return -1
-  hash = Hash.new { |h, k| h[k] = [] } #Create an empty hash where the key will be the sum and the values with be an array of their indicies
+  pair_sums = [-1] # Start with -1 to return if no valid pairs exist
+  hash = Hash.new { |h, k| h[k] = [] } # Hash where keys are digit sums, values are indices
 
-  #Itterate through the array nums to add digits together an put into sums array
-  nums.each do |x|
-    sums << x.to_s.split('').map { |x| x.to_i }.sum
+  # Compute digit sums and populate hash
+  nums.each_with_index do |num, i|
+    digit_sum = num.digits.sum # Faster than `x.to_s.split('').map(&:to_i).sum`
+    hash[digit_sum] << i
   end
 
-  #Put all sums into hash
-  sums.each_with_index do |x,i|
-    hash[x] << i
-  end
-
-  #Filter hash to only include Key Value pairs with 2 or more values
-  filtered_hash = hash.select { |_, value| value.is_a?(Array) && value.size >= 2 }
-
-  #Itterate through the filtered hash to sum the indicies of nums and put into the Pair Sums array
-  filtered_hash.each do |int, indx|
-    indx.combination(2) do |a, b|
-      pair_sums << nums[a] + nums[b]
+  # Iterate through hash and sum the largest two numbers for each digit sum group
+  hash.each_value do |indices|
+    if indices.size >= 2
+      max1, max2 = indices.max_by(2) { |idx| nums[idx] } # Get top 2 largest numbers
+      pair_sums << nums[max1] + nums[max2]
     end
   end
 
-  #Return the highest number in the pair sums array
-  pair_sums.max
+  pair_sums.max # Return the highest pair sum
 end
 
-# p maximum_sum([18,43,36,13,7]) #54
-# p maximum_sum([10,12,19,14]) #-1
-# p maximum_sum([368,369,307,304,384,138,90,279,35,396,114,328,251,364,300,191,438,467,183]) #835
-p maximum_sum([279,169,463,252,94,455,423,315,288,64,494,337,409,283,283,477,248,8,89,166,188,186,128]) #872
+p maximum_sum([18,43,36,13,7]) == 54
+p maximum_sum([10,12,19,14]) == -1
+p maximum_sum([368,369,307,304,384,138,90,279,35,396,114,328,251,364,300,191,438,467,183]) == 835
+p maximum_sum([279,169,463,252,94,455,423,315,288,64,494,337,409,283,283,477,248,8,89,166,188,186,128]) == 872
