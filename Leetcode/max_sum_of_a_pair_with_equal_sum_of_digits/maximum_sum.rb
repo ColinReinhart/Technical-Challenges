@@ -20,11 +20,8 @@ def maximum_sum(nums)
 
   #Itterate through the filtered hash to sum the indicies of nums and put into the Pair Sums array
   filtered_hash.each do |int, indx|
-    indx.each_with_index do |x, i|
-      # Ensure indx[i+1] exists before accessing it
-      if i + 1 < indx.length
-        pair_sums << nums[x] + nums[indx[i + 1]]
-      end
+    indx.combination(2) do |a, b|
+      pair_sums << nums[a] + nums[b]
     end
   end
 
@@ -34,4 +31,5 @@ end
 
 # p maximum_sum([18,43,36,13,7]) #54
 # p maximum_sum([10,12,19,14]) #-1
-p maximum_sum([368,369,307,304,384,138,90,279,35,396,114,328,251,364,300,191,438,467,183]) #835
+# p maximum_sum([368,369,307,304,384,138,90,279,35,396,114,328,251,364,300,191,438,467,183]) #835
+p maximum_sum([279,169,463,252,94,455,423,315,288,64,494,337,409,283,283,477,248,8,89,166,188,186,128]) #872
