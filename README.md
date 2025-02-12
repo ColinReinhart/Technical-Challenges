@@ -188,6 +188,8 @@ HackerRank       |[FizzBuzz][9h]                                                
 HackerRank       |[Find Median][10h]                                                                    |![rb]
 HackerRank       |[Flipping Matrix][11h]                                                                |![rb]
 HackerRank       |[Flipping Bits][12h]                                                                  |![rb]
+HackerRank       |[Find Max Team][13h]                                                                  |![rb]
+HackerRank       |[Minimum Measurement Distance][14h]                                                   |![rb]
 Other            |[Reverse String][ot]                                                                  |![rb]
 Other            |[Largest Number][ot1]                                                                 |![rb]
 
@@ -378,6 +380,8 @@ Other            |[Largest Number][ot1]                                         
 [10h]:HackerRank/find_median/
 [11h]:HackerRank/flipping_matrix/
 [12h]:HackerRank/flipping_bits/
+[13h]:HackerRank/find_max_team_size/
+[14h]:HackerRank/minimum_measurement_difference/
 
 [ot]:Other/reverse_string
 [ot1]:Other/largest_number/
