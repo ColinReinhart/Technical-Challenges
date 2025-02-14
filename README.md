@@ -175,6 +175,7 @@ Leetcode         |[Find the Number of Distinct Colors Among the Balls][163]     
 Leetcode         |[Clear Digits][164]                                                                   |![rb]
 Leetcode         |[Remove All Occurances of a Substring][165]                                           |![rb]
 Leetcode         |[Max Sum of a Pair With Equal Sum of Digits][166]                                     |![rb]
+Leetcode         |[4 Sum][167]                                                                          |![rb]
 DailyRuby        |[Double Strings][1o]                                                                  |![rb]
 HackerRank       |[Plus Minus][1h]                                                                      |![rb]
 HackerRank       |[Min-Max Sum][2h]                                                                     |![rb]
@@ -363,6 +364,7 @@ Other            |[Largest Number][ot1]                                         
 [164]:Leetcode/clear_digits/
 [165]:Leetcode/remove_all_occurances_of_a_substring/
 [166]:Leetcode/max_sum_of_a_pair_with_equal_sum_of_digits/
+[167]:Leetcode/4_sum/
 
 [1o]:Other/double_string/
 
