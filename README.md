@@ -176,6 +176,7 @@ Leetcode         |[Clear Digits][164]                                           
 Leetcode         |[Remove All Occurances of a Substring][165]                                           |![rb]
 Leetcode         |[Max Sum of a Pair With Equal Sum of Digits][166]                                     |![rb]
 Leetcode         |[4 Sum][167]                                                                          |![rb]
+Leetcode         |[Product of the Last K Numbers][168]                                                  |![rb]
 DailyRuby        |[Double Strings][1o]                                                                  |![rb]
 HackerRank       |[Plus Minus][1h]                                                                      |![rb]
 HackerRank       |[Min-Max Sum][2h]                                                                     |![rb]
@@ -365,6 +366,7 @@ Other            |[Largest Number][ot1]                                         
 [165]:Leetcode/remove_all_occurances_of_a_substring/
 [166]:Leetcode/max_sum_of_a_pair_with_equal_sum_of_digits/
 [167]:Leetcode/4_sum/
+[168]:Leetcode/product_of_the_last_k_numbers/
 
 [1o]:Other/double_string/
 
