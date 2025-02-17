@@ -17,6 +17,7 @@
 - [Tree](#tree)
 - [Depth First Search](#depth-first-search)
 - [Binary Tree](#binary-tree)
+- [Backtracking](#backtracking)
 
 ---
 
@@ -180,6 +181,16 @@
 <summary>Click to expand</summary>
 
 1. [Same Tree][156]
+
+</details>
+
+---
+
+## Backtracking
+<details>
+<summary>Click to expand</summary>
+
+1. [Letter Tile Possibilities][169]
 
 </details>
 
@@ -349,3 +360,4 @@
 [154]:Leetcode/check_if_n_and_its_double_exists/
 [155]:Leetcode/move_pieces_to_obtain_a_string/
 [156]:Leetcode/same_tree/
+[169]:Leetcode/letter_tile_possibilities/
