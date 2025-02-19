@@ -2,11 +2,29 @@
 # @param {Integer} k
 # @return {String}
 def get_happy_string(n, k)
-  set = ["a", "b", "c"]
+  chars = ["a", "b", "c"]
+  result = []
 
-  wip = set.repeated_permutation(n).select { |arr| arr.each_cons(2).none? { |a, b| a == b } }.map(&:join).sort
+  def backtrack(n, current, last_char, result)
+    return if result.size >= @k
 
-  wip[k-1] || ""
+    if current.size == n
+      result << current.dup
+      return
+    end
+
+    ["a", "b", "c"].each do |char|
+      next if char == last_char
+
+      backtrack(n, current + char, char, result)
+      return if result.size >= @k
+    end
+  end
+
+  @k = k
+  backtrack(n, "", "", result)
+
+  result[k-1] || ""
 end
 
 p get_happy_string(1, 3) #"c"
