@@ -191,6 +191,7 @@
 <summary>Click to expand</summary>
 
 1. [Letter Tile Possibilities][169]
+2. [K-Th Lexicographical String of all Happy Strings][170]
 
 </details>
 
@@ -361,3 +362,4 @@
 [155]:Leetcode/move_pieces_to_obtain_a_string/
 [156]:Leetcode/same_tree/
 [169]:Leetcode/letter_tile_possibilities/
+[170]:Leetcode/k-th_lexicographical_string_of_all_happy_strings/
