@@ -180,6 +180,7 @@ Leetcode         |[Product of the Last K Numbers][168]                          
 Leetcode         |[Letter Tile Possibilities][169]                                                      |![rb]
 Leetcode         |[Construct Smallest Number From DI String][170]                                       |![rb]
 Leetcode         |[K-Th Lexicographical String of All Happy Strings][171]                               |![rb]
+Leetcode         |[Find Unique Binary String][172]                                                      |![rb]
 DailyRuby        |[Double Strings][1o]                                                                  |![rb]
 HackerRank       |[Plus Minus][1h]                                                                      |![rb]
 HackerRank       |[Min-Max Sum][2h]                                                                     |![rb]
@@ -375,6 +376,7 @@ Other            |[Largest Number][ot1]                                         
 [169]:Leetcode/letter_tile_possibilities/
 [170]:Leetcode/construct_smallest_number_from_DI_string/
 [171]:Leetcode/k-th_lexicographical_string_of_all_happy_strings/
+[172]:Leetcode/find_unique_binary_string/
 
 [1o]:Other/double_string/
 
