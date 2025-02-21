@@ -1,33 +1,27 @@
-# Definition for a binary tree node.
-# class TreeNode
-#     attr_accessor :val, :left, :right
-#     def initialize(val = 0, left = nil, right = nil)
-#         @val = val
-#         @left = left
-#         @right = right
-#     end
-# end
-class FindElements
-
-=begin
-    :type root: TreeNode
-=end
-    def initialize(root)
-
-    end
-
-
-=begin
-    :type target: Integer
-    :rtype: Boolean
-=end
-    def find(target)
-
-    end
-
-
+class TreeNode
+  attr_accessor :val, :left, :right
+  def initialize(val = 0, left = nil, right = nil)
+    @val = val
+    @left = left
+    @right = right
+  end
 end
 
-# Your FindElements object will be instantiated and called as such:
-# obj = FindElements.new(root)
-# param_1 = obj.find(target)
+class FindElements
+  def initialize(root)
+    @values = Set.new  # Store all node values for O(1) lookup
+    recover_tree(root, 0) if root
+  end
+
+  def recover_tree(node, val)
+    return unless node
+    node.val = val
+    @values.add(val)
+    recover_tree(node.left, 2 * val + 1)
+    recover_tree(node.right, 2 * val + 2)
+  end
+
+  def find(target)
+    @values.include?(target)
+  end
+end
