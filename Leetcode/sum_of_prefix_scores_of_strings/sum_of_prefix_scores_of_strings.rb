@@ -1,5 +1,3 @@
-# @param {String[]} words
-# @return {Integer[]}
 class TrieNode
   attr_accessor :children, :count
 
@@ -14,21 +12,22 @@ class Trie
     @root = TrieNode.new
   end
 
-  # Insert a word into the Trie and increment the count for each prefix
+  # Insert word into Trie and update prefix counts
   def insert(word)
     node = @root
-    word.each_char do |char|
+    word.chars.each do |char|
       node.children[char] ||= TrieNode.new
       node = node.children[char]
-      node.count += 1
+      node.count += 1  # Increment count at this prefix
     end
   end
 
-  # Get the sum of prefix scores for a word
+  # Get prefix score for a word
   def get_prefix_score(word)
-    score = 0
     node = @root
-    word.each_char do |char|
+    score = 0
+    word.chars.each do |char|
+      return 0 unless node.children[char]
       node = node.children[char]
       score += node.count
     end
@@ -36,12 +35,13 @@ class Trie
   end
 end
 
-# Main function
 def sum_prefix_scores(words)
   trie = Trie.new
+
+  # Step 1: Insert all words into Trie
   words.each { |word| trie.insert(word) }
 
-  # Calculate the sum of prefix scores for each word
+  # Step 2: Compute prefix scores
   words.map { |word| trie.get_prefix_score(word) }
 end
 
