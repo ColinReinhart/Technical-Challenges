@@ -183,6 +183,7 @@ Leetcode         |[K-Th Lexicographical String of All Happy Strings][171]       
 Leetcode         |[Find Unique Binary String][172]                                                      |![rb]
 Leetcode         |[Number of Subarrays With Odd Sum][174]                                               |![rb]
 Leetcode         |[Find Elements in a Contaminated Binary Tree][173]                                    |![rb]
+Leetcode         |[Maximum Absolute Sum of Any Subarray][175]                                           |![rb]
 DailyRuby        |[Double Strings][1o]                                                                  |![rb]
 HackerRank       |[Plus Minus][1h]                                                                      |![rb]
 HackerRank       |[Min-Max Sum][2h]                                                                     |![rb]
@@ -381,6 +382,7 @@ Other            |[Largest Number][ot1]                                         
 [172]:Leetcode/find_unique_binary_string/
 [173]:Leetcode/find_elements_in_a_contaminated_binary_tree/
 [174]:Leetcode/number_of_sub-arrays_with_odd_sum/
+[175]:Leetcode/maximum_absolute_sum_of_any_subarray/
 
 [1o]:Other/double_string/
 
