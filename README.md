@@ -13,7 +13,7 @@ Leetcode         |[Search in Rotated Sorted Array][9]                           
 Leetcode         |[Target and Payload][10]                                                              |![rb]
 Leetcode         |[Text Justification][11]                                                              |![rb]
 Leetcode         |[Top K Frequent Elements][12]                                                         |![rb]
-Leetcode         |[Two Sums][13]                                                                        |![rb]
+Leetcode         |[Two Sum][13]                                                                        |![rb]
 Leetcode         |[Verify ISBN][14]                                                                     |![rb]
 Leetcode         |[What Did I Order][15]                                                                |![rb]
 Leetcode         |[Median of Two Sorted Arrays][16]                                                     |![rb]
@@ -143,6 +143,46 @@ Leetcode         |[Uncommon Words from Two Sentences][131]                      
 Leetcode         |[Integer to Roman][132]                                                               |![rb]
 Leetcode         |[Largest Number][133]                                                                 |![rb]
 Leetcode         |[Sum of Prefix Scores of Strings][134]                                                |![rb]
+Leetcode         |[3Sum Closest][135]                                                                   |![rb]
+Leetcode         |[My Calendar I][136]                                                                  |![rb]
+Leetcode         |[My Calendar II][137]                                                                 |![rb]
+Leetcode         |[Divide Players Into Teams of Equal Skill][138]                                       |![rb]
+Leetcode         |[Maximum Swap][139]                                                                   |![rb]
+Leetcode         |[Delete Characters to Make Fancy String][140]                                         |![rb]
+Leetcode         |[Circular Sentence][141]                                                              |![rb]
+Leetcode         |[Largest Combination With Bitwise AND Greater Than Zero][142]                         |![rb]
+Leetcode         |[Maximum XOR for Each Query][143]                                                     |![rb]
+Leetcode         |[Rotate String][144]                                                                  |![rb]
+Leetcode         |[Minimized Maximum of Products Distributed to Any Store][145]                         |![rb]
+Leetcode         |[Shortest Subarray to be Removed to Make Array Sorted][146]                           |![rb]
+Leetcode         |[Find The Power of K-Size Subarrays I][147]                                           |![rb]
+Leetcode         |[Shortest Subarray with Sum of at Least k][148]                                       |![rb]
+Leetcode         |[Defuse the Bomb][149]                                                                |![rb]
+Leetcode         |[Flip Columns for Maximum Number of Equal Rows][150]                                  |![rb]
+Leetcode         |[Valid Parentheses][151]                                                              |![rb]
+Leetcode         |[Sliding Puzzle][152]                                                                 |![rb]
+Leetcode         |[Shortest Distance After Road Addition Queries I][153]                                |![rb]
+Leetcode         |[Check if N and its Double Exists][154]                                               |![rb]
+Leetcode         |[Move Pieces to Obtain a String][155]                                                 |![rb]
+Leetcode         |[Final Prices with a Special Discount in a Shop][156]                                 |![rb]
+Leetcode         |[Counting Words with a Given Prefix][157]                                             |![rb]
+Leetcode         |[Word Subsets][158]                                                                   |![rb]
+Leetcode         |[Same Tree][159]                                                                      |![rb]
+Leetcode         |[Longest Strictly Increasing or Strickly Decreasing Subarray][160]                    |![rb]
+Leetcode         |[Check if One String Swap Can Make Strings Equal][161]                                |![rb]
+Leetcode         |[Distinct Numbers in Each Subarray][162]                                              |![rb]
+Leetcode         |[Find the Number of Distinct Colors Among the Balls][163]                             |![rb]
+Leetcode         |[Clear Digits][164]                                                                   |![rb]
+Leetcode         |[Remove All Occurances of a Substring][165]                                           |![rb]
+Leetcode         |[Max Sum of a Pair With Equal Sum of Digits][166]                                     |![rb]
+Leetcode         |[4 Sum][167]                                                                          |![rb]
+Leetcode         |[Product of the Last K Numbers][168]                                                  |![rb]
+Leetcode         |[Letter Tile Possibilities][169]                                                      |![rb]
+Leetcode         |[Construct Smallest Number From DI String][170]                                       |![rb]
+Leetcode         |[K-Th Lexicographical String of All Happy Strings][171]                               |![rb]
+Leetcode         |[Find Unique Binary String][172]                                                      |![rb]
+Leetcode         |[Number of Subarrays With Odd Sum][174]                                               |![rb]
+Leetcode         |[Find Elements in a Contaminated Binary Tree][173]                                    |![rb]
 DailyRuby        |[Double Strings][1o]                                                                  |![rb]
 HackerRank       |[Plus Minus][1h]                                                                      |![rb]
 HackerRank       |[Min-Max Sum][2h]                                                                     |![rb]
@@ -156,6 +196,8 @@ HackerRank       |[FizzBuzz][9h]                                                
 HackerRank       |[Find Median][10h]                                                                    |![rb]
 HackerRank       |[Flipping Matrix][11h]                                                                |![rb]
 HackerRank       |[Flipping Bits][12h]                                                                  |![rb]
+HackerRank       |[Find Max Team][13h]                                                                  |![rb]
+HackerRank       |[Minimum Measurement Distance][14h]                                                   |![rb]
 Other            |[Reverse String][ot]                                                                  |![rb]
 Other            |[Largest Number][ot1]                                                                 |![rb]
 
@@ -177,7 +219,7 @@ Other            |[Largest Number][ot1]                                         
 [10]:Leetcode/target_and_payload.rb/
 [11]:Leetcode/text_justification/
 [12]:Leetcode/top_k_frequent_elements/
-[13]:Leetcode/two_sums/
+[13]:Leetcode/two_sum/
 [14]:Leetcode/verify_isbn/
 [15]:Leetcode/what_did_I_order/
 [16]:Leetcode/median_of_two_sorted_arrays/
@@ -299,6 +341,46 @@ Other            |[Largest Number][ot1]                                         
 [132]:Leetcode/integer_to_roman/
 [133]:Leetcode/largest_number/
 [134]:Leetcode/sum_of_prefix_scores_of_strings/
+[135]:Leetcode/3sum_closest/
+[136]:Leetcode/my_calendar_I/
+[137]:Leetcode/my_calendar_ii/
+[138]:Leetcode/divide_players_into_teams_of_equal_skill/
+[139]:Leetcode/maximum_swap/
+[140]:Leetcode/delete_characters_to_make_fancy_string/
+[141]:Leetcode/circular_sentence/
+[142]:Leetcode/largest_combination_with_bitwise_and_greater_than_zero/
+[143]:Leetcode/maximum_xor_for_each_query/
+[144]:Leetcode/rotate_string/
+[145]:Leetcode/minimized_maximum/
+[146]:Leetcode/shortest_subarray_to_be_removed_to_make_array_sorted/
+[147]:Leetcode/find_the_power_of_k-size_subarrays_I/
+[148]:Leetcode/shortest_subarray_with_sum_at_least_k/
+[149]:Leetcode/defuse_the_bomb/
+[150]:Leetcode/flip_columns_for_maximum_number_of_equal_rows/
+[151]:Leetcode/valid_parentheses/
+[152]:Leetcode/sliding_puzzle/
+[153]:Leetcode/shortest_distance_after_road_addition_queries_i/
+[154]:Leetcode/check_if_n_and_its_double_exists/
+[155]:Leetcode/move_pieces_to_obtain_a_string/
+[156]:Leetcode/final_prices_with_a_special_discount_in_a_shop/
+[157]:Leetcode/counting_words_with_a_given_prefix/
+[158]:Leetcode/word_subsets/
+[159]:Leetcode/same_tree/
+[160]:Leetcode/longest_strickly_increasing_or_decreasing_subarray/
+[161]:Leetcode/check_if_one_string_swap_can_make_strings_equal/
+[162]:Leetcode/distinct_numbers_in_each_subarray/
+[163]:Leetcode/find_the_number_of_distinct_colors_among_the_balls/
+[164]:Leetcode/clear_digits/
+[165]:Leetcode/remove_all_occurances_of_a_substring/
+[166]:Leetcode/max_sum_of_a_pair_with_equal_sum_of_digits/
+[167]:Leetcode/4_sum/
+[168]:Leetcode/product_of_the_last_k_numbers/
+[169]:Leetcode/letter_tile_possibilities/
+[170]:Leetcode/construct_smallest_number_from_DI_string/
+[171]:Leetcode/k-th_lexicographical_string_of_all_happy_strings/
+[172]:Leetcode/find_unique_binary_string/
+[173]:Leetcode/find_elements_in_a_contaminated_binary_tree/
+[174]:Leetcode/number_of_sub-arrays_with_odd_sum/
 
 [1o]:Other/double_string/
 
@@ -314,6 +396,8 @@ Other            |[Largest Number][ot1]                                         
 [10h]:HackerRank/find_median/
 [11h]:HackerRank/flipping_matrix/
 [12h]:HackerRank/flipping_bits/
+[13h]:HackerRank/find_max_team_size/
+[14h]:HackerRank/minimum_measurement_difference/
 
 [ot]:Other/reverse_string
 [ot1]:Other/largest_number/

@@ -15,5 +15,3 @@ I bring more than a decade worth of professional experience in Property Managmen
 ## Connect With Me
 
 Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/yourusername) or reach out via email at ColinBReinhart@gmail.com.
-
-Looking forward to engaging with this Clipboard Health!
