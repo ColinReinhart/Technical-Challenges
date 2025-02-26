@@ -181,6 +181,7 @@ Leetcode         |[Letter Tile Possibilities][169]                              
 Leetcode         |[Construct Smallest Number From DI String][170]                                       |![rb]
 Leetcode         |[K-Th Lexicographical String of All Happy Strings][171]                               |![rb]
 Leetcode         |[Find Unique Binary String][172]                                                      |![rb]
+Leetcode         |[Number of Subarrays With Odd Sum][174]                                               |![rb]
 Leetcode         |[Find Elements in a Contaminated Binary Tree][173]                                    |![rb]
 DailyRuby        |[Double Strings][1o]                                                                  |![rb]
 HackerRank       |[Plus Minus][1h]                                                                      |![rb]
@@ -379,6 +380,7 @@ Other            |[Largest Number][ot1]                                         
 [171]:Leetcode/k-th_lexicographical_string_of_all_happy_strings/
 [172]:Leetcode/find_unique_binary_string/
 [173]:Leetcode/find_elements_in_a_contaminated_binary_tree/
+[174]:Leetcode/number_of_sub-arrays_with_odd_sum/
 
 [1o]:Other/double_string/
 
