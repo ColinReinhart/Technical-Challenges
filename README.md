@@ -187,6 +187,7 @@ Leetcode         |[Maximum Absolute Sum of Any Subarray][175]                   
 Leetcode         |[Partition Array According to Given Pivot][176]                                       |![rb]
 Leetcode         |[Count Total Number of Colored Cells][177]                                            |![rb]
 Leetcode         |[Find Missing and Repeated Values][178]                                               |![rb]
+Leetcode         |[Remove Nth Node From end of List][179]                                               |![rb]
 DailyRuby        |[Double Strings][1o]                                                                  |![rb]
 HackerRank       |[Plus Minus][1h]                                                                      |![rb]
 HackerRank       |[Min-Max Sum][2h]                                                                     |![rb]
@@ -389,6 +390,7 @@ Other            |[Largest Number][ot1]                                         
 [176]:Leetcode/partition_array_according_to_given_pivot/
 [177]:Leetcode/count_total_number_of_colored_cells/
 [178]:Leetcode/find_missing_and_repeated_values/
+[179]:Leetcode/remove_nth_node_from_emd_of_list/
 
 [1o]:Other/double_string/
 
