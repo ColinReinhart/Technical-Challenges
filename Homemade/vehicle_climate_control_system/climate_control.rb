@@ -15,14 +15,10 @@ def climate_control(outside_temp, in_cabin_temp, hvac_temp, set_temp)
   if heat == true
     if in_cabin_temp - hvac_temp <= 10 && set_temp - in_cabin_temp > 10
       fan = true
-    # else
-      # require 'pry'; binding.pry
     end
   else
     if in_cabin_temp - hvac_temp >= 10 && in_cabin_temp - set_temp > 10
       fan = true
-    # else
-    #   require 'pry'; binding.pry
     end
   end
 
