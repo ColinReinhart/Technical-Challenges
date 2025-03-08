@@ -189,6 +189,7 @@ Leetcode         |[Count Total Number of Colored Cells][177]                    
 Leetcode         |[Find Missing and Repeated Values][178]                                               |![rb]
 Leetcode         |[Remove Nth Node From end of List][179]                                               |![rb]
 Leetcode         |[Closest Prime Numbers in Range][180]                                                 |![rb]
+Leetcode         |[Minimum Recolors to Get K Consecutive Black Blocks][181]                             |![rb]
 DailyRuby        |[Double Strings][1o]                                                                  |![rb]
 HackerRank       |[Plus Minus][1h]                                                                      |![rb]
 HackerRank       |[Min-Max Sum][2h]                                                                     |![rb]
@@ -394,6 +395,7 @@ Other            |[Largest Number][ot1]                                         
 [178]:Leetcode/find_missing_and_repeated_values/
 [179]:Leetcode/remove_nth_node_from_emd_of_list/
 [180]:Leetcode/closest_prime_numbers_in_range/
+[181]:Leetcode/minimum_recolors_to_get_k_consecutive_black_blocks/
 
 [1o]:Other/double_string/
 
