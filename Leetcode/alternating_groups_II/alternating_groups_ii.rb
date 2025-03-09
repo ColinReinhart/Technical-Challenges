@@ -2,25 +2,11 @@
 # @param {Integer} k
 # @return {Integer}
 def number_of_alternating_groups(colors, k)
-  n = colors.length
-  extended_colors = colors + colors[0...(k - 1)]
-  count = 0
-
-  (0...(n)).each do |i|
-    group = extended_colors[i...(i + k)]
-    is_alternating = true
-
-    (1...(k - 1)).each do |j|
-      if group[j] == group[j - 1] || group[j] == group[j + 1]
-        is_alternating = false
-        break
-      end
+    (0..k - 2).each { colors << colors[_1] }
+    j = 0
+    (1..colors.size - 1).inject(0) do |cnt, i|
+      colors[i] == colors[i - 1] ? (j = i and next cnt) : i - j + 1 == k ? (j += 1 and next cnt + 1) : cnt
     end
-
-    count += 1 if is_alternating
-  end
-
-  count
 end
 
 p number_of_alternating_groups([0,1,0,1,0], 3) #3
