@@ -192,6 +192,7 @@ Leetcode         |[Closest Prime Numbers in Range][180]                         
 Leetcode         |[Minimum Recolors to Get K Consecutive Black Blocks][181]                             |![rb]
 Leetcode         |[Alternating Groups II][182]                                                          |![rb]
 Leetcode         |[Count of Substrings Containing Every Vowel and K Consonants II][183]                 |![rb]
+Leetcode         |[Maximum Count of Negative and Positive Integers][184]                                |![rb]
 DailyRuby        |[Double Strings][1o]                                                                  |![rb]
 HackerRank       |[Plus Minus][1h]                                                                      |![rb]
 HackerRank       |[Min-Max Sum][2h]                                                                     |![rb]
@@ -400,6 +401,7 @@ Other            |[Largest Number][ot1]                                         
 [181]:Leetcode/minimum_recolors_to_get_k_consecutive_black_blocks/
 [182]:Leetcode/alternating_groups_II/
 [183]:Leetcode/count_of_substrings_containing_every_vowel_and_k_consonants_II/
+[184]:Leetcode/maximum_count_of_negative_and_positive_integers/
 
 [1o]:Other/double_string/
 
