@@ -194,6 +194,7 @@ Leetcode         |[Alternating Groups II][182]                                  
 Leetcode         |[Count of Substrings Containing Every Vowel and K Consonants II][183]                 |![rb]
 Leetcode         |[Maximum Count of Negative and Positive Integers][184]                                |![rb]
 Leetcode         |[Zero Array Transformation II][185]                                                   |![rb]
+Leetcode         |[Maximum Candies Allocated to K Children][186]                                        |![rb]
 DailyRuby        |[Double Strings][1o]                                                                  |![rb]
 HackerRank       |[Plus Minus][1h]                                                                      |![rb]
 HackerRank       |[Min-Max Sum][2h]                                                                     |![rb]
@@ -404,6 +405,7 @@ Other            |[Largest Number][ot1]                                         
 [183]:Leetcode/count_of_substrings_containing_every_vowel_and_k_consonants_II/
 [184]:Leetcode/maximum_count_of_negative_and_positive_integers/
 [185]:Leetcode/zero_array_transformation_II/
+[186]:Leetcode/maximum_candies_allocated_to_k_children/
 
 [1o]:Other/double_string/
 
