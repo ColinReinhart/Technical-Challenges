@@ -197,6 +197,7 @@ Leetcode         |[Zero Array Transformation II][185]                           
 Leetcode         |[Maximum Candies Allocated to K Children][186]                                        |![rb]
 Leetcode         |[Divide Array Into Equal Parts][187]                                                  |![rb]
 Leetcode         |[Minimum Cost Walk in Weighted Graph][188]                                            |![rb]
+Leetcode         |[Count Days Without Meetings][189]                                                    |![rb]
 DailyRuby        |[Double Strings][1o]                                                                  |![rb]
 HackerRank       |[Plus Minus][1h]                                                                      |![rb]
 HackerRank       |[Min-Max Sum][2h]                                                                     |![rb]
@@ -410,6 +411,7 @@ Other            |[Largest Number][ot1]                                         
 [186]:Leetcode/maximum_candies_allocated_to_k_children/
 [187]:Leetcode/divide_array_into_equal_parts/
 [188]:Leetcode/minimum_cost_walk_in_weighted_graph/
+[189]:Leetcode/count_days_without_meetings/
 
 [1o]:Other/double_string/
 
