@@ -2,14 +2,25 @@
 # @param {Integer[][]} meetings
 # @return {Integer}
 def count_days(days, meetings)
-  hash = Hash.new(0)
-  (1..days).to_a.each { |day| hash[day] += 1 }
+  return days if meetings.empty?
 
-  meetings.each do |meeting|
-    (meeting[0]..meeting[1]).to_a.each { |day| hash[day] += 1 }
+  meetings.sort_by!(&:first)
+  merged = []
+  current_start, current_end = meetings[0]
+
+  meetings[1..].each do |start_day, end_day|
+    if start_day <= current_end + 1
+      current_end = [current_end, end_day].max
+    else
+      merged << [current_start, current_end]
+      current_start, current_end = start_day, end_day
+    end
   end
+  merged << [current_start, current_end]
 
-  return hash.count { |_, value| value == 1 }
+  covered = merged.sum { |start_day, end_day| end_day - start_day + 1 }
+
+  days - covered
 end
 
 p count_days(10, [[5,7],[1,3],[9,10]]) #2
