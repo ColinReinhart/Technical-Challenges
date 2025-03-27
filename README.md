@@ -201,6 +201,8 @@ Leetcode         |[Count Days Without Meetings][189]                            
 Leetcode         |[Check if Grid Can Be Cut Into Sections][190]                                         |![rb]
 Leetcode         |[Minimum Operations to Make a Uni-Value Grid][191]                                    |![rb]
 Leetcode         |[Minimum Operations to Make a Uni-Value Grid][191]                                    |![go]
+Leetcode         |[Minimum Index of a Valid Split- Ruby][192]                                           |![rb]
+Leetcode         |[Minimum Index of a Valid Split- Go][192]                                             |![go]
 DailyRuby        |[Double Strings][1o]                                                                  |![rb]
 HackerRank       |[Plus Minus][1h]                                                                      |![rb]
 HackerRank       |[Min-Max Sum][2h]                                                                     |![rb]
@@ -418,6 +420,8 @@ Other            |[Largest Number][ot1]                                         
 [189]:Leetcode/count_days_without_meetings/
 [190]:Leetcode/check_if_grid_can_be_cut_into_sections/
 [191]:Leetcode/minimum_operations_to_make_a_uni-value_grid/
+[192]:Leetcode/minimum_index_of_a_valid_split/
+[192]:Leetcode/minimum_index_of_a_valid_split/
 [1o]:Other/double_string/
 
 [1h]:HackerRank/Plus_Minus/
