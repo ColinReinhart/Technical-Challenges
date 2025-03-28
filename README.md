@@ -203,6 +203,7 @@ Leetcode         |[Minimum Operations to Make a Uni-Value Grid][191]            
 Leetcode         |[Minimum Operations to Make a Uni-Value Grid][191]                                    |![go]
 Leetcode         |[Minimum Index of a Valid Split- Ruby][192]                                           |![rb]
 Leetcode         |[Minimum Index of a Valid Split- Go][192]                                             |![go]
+Leetcode         |[Maximum Number of Points From Grid Queries][193]                                     |![rb]
 DailyRuby        |[Double Strings][1o]                                                                  |![rb]
 HackerRank       |[Plus Minus][1h]                                                                      |![rb]
 HackerRank       |[Min-Max Sum][2h]                                                                     |![rb]
@@ -422,6 +423,7 @@ Other            |[Largest Number][ot1]                                         
 [191]:Leetcode/minimum_operations_to_make_a_uni-value_grid/
 [192]:Leetcode/minimum_index_of_a_valid_split/
 [192]:Leetcode/minimum_index_of_a_valid_split/
+[193]:Leetcode/maximum_number_of_points_from_grid_queries/
 [1o]:Other/double_string/
 
 [1h]:HackerRank/Plus_Minus/
