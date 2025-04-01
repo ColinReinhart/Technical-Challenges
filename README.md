@@ -205,6 +205,7 @@ Leetcode         |[Minimum Index of a Valid Split- Ruby][192]                   
 Leetcode         |[Minimum Index of a Valid Split- Go][192]                                             |![go]
 Leetcode         |[Maximum Number of Points From Grid Queries][193]                                     |![rb]
 Leetcode         |[Put Marbles in Bags][194]                                                            |![rb]
+Leetcode         |[Solving Problems with Brainpower][195]                                               |![rb]
 DailyRuby        |[Double Strings][1o]                                                                  |![rb]
 HackerRank       |[Plus Minus][1h]                                                                      |![rb]
 HackerRank       |[Min-Max Sum][2h]                                                                     |![rb]
@@ -426,6 +427,7 @@ Other            |[Largest Number][ot1]                                         
 [192]:Leetcode/minimum_index_of_a_valid_split/
 [193]:Leetcode/maximum_number_of_points_from_grid_queries/
 [194]:Leetcode/put_marbles_in_bags/
+[195]:Leetcode/solving_problems_with_brainpower/
 
 [1o]:Other/double_string/
 
