@@ -6,20 +6,13 @@ def maximum_triplet_value(nums)
   cent = 1
   right = 2
 
-  until left == nums.count - 2
-    max = (nums[left] - nums[cent]) * nums[right] if (nums[left] - nums[cent]) * nums[right] > max
-    if right < nums.count - 1
-      right += 1
-    elsif cent < nums.count - 2
-      cent += 1
-      right = cent + 1
-    elsif left < nums.count - 3
-      left += 1
-      cent = left + 1
-      right = cent + 1
-    else
-      left += 1
-    end
+  (0...nums.length - 2).each do |left|
+    ((left + 1)...nums.length - 1).each do |cent|
+      ((cent + 1)...nums.length).each do |right|
+       value = (nums[left] - nums[cent]) * nums[right]
+       max = value if value > max
+     end
+   end
   end
   max
 end
