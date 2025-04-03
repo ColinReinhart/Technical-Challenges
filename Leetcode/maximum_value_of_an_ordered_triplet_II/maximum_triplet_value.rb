@@ -1,20 +1,23 @@
 # @param {Integer[]} nums
 # @return {Integer}
 def maximum_triplet_value(nums)
-  max_result = 0
-  max_left = nums[0]
+  j = 1
+  result = 0
+  len = nums.length
+  left_max = nums[0]
+  right_max = nums[j + 1...len].max
 
-  (1...nums.length - 1).each do |j|
-    k = j + 1
-    while k < nums.length
-      value = (max_left - nums[j]) * nums[k]
-      max_result = value if value > max_result
-      k += 1
+  while j < len - 1
+    result = [(left_max - nums[j]) * right_max, result].max
+
+    left_max = [nums[j], left_max].max
+    j += 1
+    if nums[j] == right_max
+      right_max = nums[j + 1...len].max
     end
-    max_left = nums[j] if nums[j] > max_left
   end
 
-  max_result
+  (result.positive? ? result : 0)
 end
 
 p maximum_triplet_value([12,6,1,2,7]) #77
