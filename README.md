@@ -207,6 +207,7 @@ Leetcode         |[Maximum Number of Points From Grid Queries][193]             
 Leetcode         |[Put Marbles in Bags][194]                                                            |![rb]
 Leetcode         |[Solving Problems with Brainpower][195]                                               |![rb]
 Leetcode         |[Maximum Value of a Ordered Triplet I][196]                                           |![rb]
+Leetcode         |[Maximum Value of a Ordered Triplet II][197]                                          |![rb]
 DailyRuby        |[Double Strings][1o]                                                                  |![rb]
 HackerRank       |[Plus Minus][1h]                                                                      |![rb]
 HackerRank       |[Min-Max Sum][2h]                                                                     |![rb]
@@ -430,6 +431,7 @@ Other            |[Largest Number][ot1]                                         
 [194]:Leetcode/put_marbles_in_bags/
 [195]:Leetcode/solving_problems_with_brainpower/
 [196]:Leetcode/maximum_value_of_an_ordered_triplet_I/
+[197]:Leetcode/maximum_value_of_an_ordered_triplet_II/
 
 [1o]:Other/double_string/
 
