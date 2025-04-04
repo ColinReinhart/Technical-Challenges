@@ -208,6 +208,7 @@ Leetcode         |[Put Marbles in Bags][194]                                    
 Leetcode         |[Solving Problems with Brainpower][195]                                               |![rb]
 Leetcode         |[Maximum Value of a Ordered Triplet I][196]                                           |![rb]
 Leetcode         |[Maximum Value of a Ordered Triplet II][197]                                          |![rb]
+Leetcode         |[Lowest Common Ancestor of Deepest Leaves][198]                                       |![rb]
 DailyRuby        |[Double Strings][1o]                                                                  |![rb]
 HackerRank       |[Plus Minus][1h]                                                                      |![rb]
 HackerRank       |[Min-Max Sum][2h]                                                                     |![rb]
@@ -432,6 +433,7 @@ Other            |[Largest Number][ot1]                                         
 [195]:Leetcode/solving_problems_with_brainpower/
 [196]:Leetcode/maximum_value_of_an_ordered_triplet_I/
 [197]:Leetcode/maximum_value_of_an_ordered_triplet_II/
+[198]:Leetcode/lowest_common_ancestor_of_deepest_leaves/
 
 [1o]:Other/double_string/
 
