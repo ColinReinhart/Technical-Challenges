@@ -1,24 +1,20 @@
 # @param {Integer[]} nums
 # @return {Boolean}
 def can_partition(nums)
-  n = nums.size
+  total = nums.sum
+  return false if total.odd?
 
-  (0...(1 << n)).each do |mask|
-    left = []
-    right = []
+  target = total / 2
+  dp = Array.new(target + 1, false)
+  dp[0] = true
 
-    nums.each_with_index do |val, i|
-      if mask[i] == 1
-        left << val
-      else
-        right << val
-      end
+  nums.each do |num|
+    target.downto(num) do |j|
+      dp[j] ||= dp[j - num]
     end
-
-    return true if left.sum == right.sum
   end
 
-  false
+  dp[target]
 end
 
 p can_partition([1,5,11,5]) #true
