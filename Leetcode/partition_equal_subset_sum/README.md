@@ -1,25 +1,48 @@
-416. Partition Equal Subset Sum
-Difficulty: Medium
-Topics: Array, Dynamic Programing
-Companies: Google, Amazon, TikTok, Dream 11, Meta, Microsoft, Bloomberg, Apple, Zoho, Yahoo, Uber, eBay, Flipkart, Walmart Labs, IBM, TCS, Oracle
+# 416. Partition Equal Subset Sum
 
-Given an integer array nums, return true if you can partition the array into two subsets such that the sum of the elements in both subsets is equal or false otherwise.
+**Difficulty:** Medium  
+**Topics:** Array, Dynamic Programming  
+**Companies:** Google, Amazon, TikTok, Dream 11, Meta, Microsoft, Bloomberg, Apple, Zoho, Yahoo, Uber, eBay, Flipkart, Walmart Labs, IBM, TCS, Oracle
 
- 
+---
 
-Example 1:
+## Problem Statement
 
-Input: nums = [1,5,11,5]
-Output: true
-Explanation: The array can be partitioned as [1, 5, 5] and [11].
-Example 2:
+Given an integer array `nums`, return `true` if you can partition the array into two subsets such that the sum of the elements in both subsets is equal, or `false` otherwise.
 
-Input: nums = [1,2,3,5]
-Output: false
-Explanation: The array cannot be partitioned into equal sum subsets.
- 
+---
 
-Constraints:
+## Example 1
 
-1 <= nums.length <= 200
-1 <= nums[i] <= 100
+**Input:**
+
+nums = [1, 5, 11, 5]
+
+**Output:**
+
+true
+
+**Explanation:**
+The array can be partitioned as `[1, 5, 5]` and `[11]`.
+
+---
+
+## Example 2
+
+**Input:**
+
+nums = [1, 2, 3, 5]
+
+**Output:**
+
+false
+
+**Explanation:**
+The array cannot be partitioned into equal sum subsets.
+
+---
+
+## Constraints
+
+- `1 <= nums.length <= 200`
+- `1 <= nums[i] <= 100`
