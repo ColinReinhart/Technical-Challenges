@@ -1,20 +1,18 @@
 # @param {Integer[]} nums
 # @return {Boolean}
 def can_partition(nums)
-  nums.sort!
-  point = 1
 
-  until nums[0..point].sum > nums[point+1..-1].sum || nums[point] == nil
-    if nums[0..point].sum == nums[point+1..-1].sum
-      return true
-    else
-      point += 1
+  (0..nums.size).each do |n|
+    nums.combination(n).each do |first|
+      second = nums - first
+      pair = [first, second]
+      return true if first.sum == second.sum
     end
   end
 
   false
 end
 
-# p can_partition([1,5,11,5]) #true
-# p can_partition([1,2,3,5]) #false
+p can_partition([1,5,11,5]) #true
+p can_partition([1,2,3,5]) #false
 p can_partition([2,2,1,1]) #true
