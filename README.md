@@ -209,7 +209,8 @@ Leetcode         |[Solving Problems with Brainpower][195]                       
 Leetcode         |[Maximum Value of a Ordered Triplet I][196]                                           |![rb]
 Leetcode         |[Maximum Value of a Ordered Triplet II][197]                                          |![rb]
 Leetcode         |[Lowest Common Ancestor of Deepest Leaves][198]                                       |![rb]
-Leetcode         |[Partition Equal Subset Sum][199]                                                    |![rb]
+Leetcode         |[Partition Equal Subset Sum][199]                                                     |![rb]
+Leetcode         |[Count Symmetric Integers][200]                                                       |![rb]
 DailyRuby        |[Double Strings][1o]                                                                  |![rb]
 HackerRank       |[Plus Minus][1h]                                                                      |![rb]
 HackerRank       |[Min-Max Sum][2h]                                                                     |![rb]
@@ -436,6 +437,7 @@ Other            |[Largest Number][ot1]                                         
 [197]:Leetcode/maximum_value_of_an_ordered_triplet_II/
 [198]:Leetcode/lowest_common_ancestor_of_deepest_leaves/
 [199]:Leetcode/partition_equal_subset_sum/
+[200]:Leetcode/count_symmetric_integers/
 
 [1o]:Other/double_string/
 
