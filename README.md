@@ -211,6 +211,7 @@ Leetcode         |[Maximum Value of a Ordered Triplet II][197]                  
 Leetcode         |[Lowest Common Ancestor of Deepest Leaves][198]                                       |![rb]
 Leetcode         |[Partition Equal Subset Sum][199]                                                     |![rb]
 Leetcode         |[Count Symmetric Integers][200]                                                       |![rb]
+Leetcode         |[Count Good Triplets][201]                                                            |![rb]
 DailyRuby        |[Double Strings][1o]                                                                  |![rb]
 HackerRank       |[Plus Minus][1h]                                                                      |![rb]
 HackerRank       |[Min-Max Sum][2h]                                                                     |![rb]
@@ -438,6 +439,7 @@ Other            |[Largest Number][ot1]                                         
 [198]:Leetcode/lowest_common_ancestor_of_deepest_leaves/
 [199]:Leetcode/partition_equal_subset_sum/
 [200]:Leetcode/count_symmetric_integers/
+[201]:Leetcode/count_good_triplets/
 
 [1o]:Other/double_string/
 
