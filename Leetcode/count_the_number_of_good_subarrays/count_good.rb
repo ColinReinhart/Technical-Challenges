@@ -2,28 +2,24 @@
 # @param {Integer} k
 # @return {Integer}
 def count_good(nums, k)
-  good_subarrays = 0
   left = 0
-  right = 1
+  right = 0
+  good_subarrays = 0
+  pair_total = 0
+  freq = Hash.new(0)
 
-  def pairs_count(arr)
-    pairs = 0
-    arr.each_with_index do |num,idx|
-      arr[idx + 1..-1].each do |n|
-        pairs += 1 if num == n
-      end
-    end
-    return pairs
-  end
+  while right < nums.length
+    pair_total += freq[nums[right]]
+    freq[nums[right]] += 1
 
-  until left == nums.length - 1
-    good_subarrays += 1 if pairs_count(nums[left..right]) >= k
-    if right < nums.count - 1
-      right += 1
-    else
+    while pair_total >= k
+      good_subarrays += nums.length - right
+      freq[nums[left]] -= 1
+      pair_total -= freq[nums[left]]
       left += 1
-      right = left + 1
     end
+
+    right += 1
   end
 
   good_subarrays
