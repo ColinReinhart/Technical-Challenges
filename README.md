@@ -214,6 +214,7 @@ Leetcode         |[Count Symmetric Integers][200]                               
 Leetcode         |[Count Good Triplets][201]                                                            |![rb]
 Leetcode         |[Count the Number of Good Subarrays][202]                                             |![rb]
 Leetcode         |[Find Numbers with Even Number of Digits][203]                                        |![rb]
+Leetcode         |[Push Dominoes][204]                                                                  |![rb]
 DailyRuby        |[Double Strings][1o]                                                                  |![rb]
 HackerRank       |[Plus Minus][1h]                                                                      |![rb]
 HackerRank       |[Min-Max Sum][2h]                                                                     |![rb]
@@ -444,6 +445,7 @@ Other            |[Largest Number][ot1]                                         
 [201]:Leetcode/count_good_triplets/
 [202]:Leetcode/count_the_number_of_good_subarrays/
 [203]:Leetcode/find_number_with_even_number_of_digits/
+[204]:Leetcode/push_dominoes/
 
 [1o]:Other/double_string/
 
