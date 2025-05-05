@@ -1,7 +1,8 @@
 838. Push Dominoes
-Medium
-Topics
-Companies
+Difficulty: Medium
+Topics: Two-Pointers, String, Dynamic Programing
+Companies: Google, Bloomberg
+
 There are n dominoes in a line, and we place each domino vertically upright. In the beginning, we simultaneously push some of the dominoes either to the left or to the right.
 
 After each second, each domino that is falling to the left pushes the adjacent domino on the left. Similarly, the dominoes falling to the right push their adjacent dominoes standing on the right.
@@ -26,6 +27,7 @@ Output: "RR.L"
 Explanation: The first domino expends no additional force on the second domino.
 Example 2:
 
+![dominoe]
 
 Input: dominoes = ".L.R...LR..L.."
 Output: "LL.RR.LLRRLL.."
@@ -36,3 +38,5 @@ Constraints:
 n == dominoes.length
 1 <= n <= 105
 dominoes[i] is either 'L', 'R', or '.'.
+
+[dominoe]:/ico/domino.png
