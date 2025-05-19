@@ -1,36 +1,60 @@
-3024. Type of Triangle
-Difficulty: Easy
-Topics: Array, Math, Sorting
-Companies: Google, Microsoft, IBM
+### 3024. Type of Triangle
 
-Hint
-You are given a 0-indexed integer array nums of size 3 which can form the sides of a triangle.
+**Difficulty:** Easy  
+**Topics:** Array, Math, Sorting  
+**Companies:** Google, Microsoft, IBM  
 
-A triangle is called equilateral if it has all sides of equal length.
-A triangle is called isosceles if it has exactly two sides of equal length.
-A triangle is called scalene if all its sides are of different lengths.
-Return a string representing the type of triangle that can be formed or "none" if it cannot form a triangle.
+---
 
- 
+#### 🧠 Problem
 
-Example 1:
+You are given a 0-indexed integer array `nums` of size 3 which can form the sides of a triangle.
 
-Input: nums = [3,3,3]
-Output: "equilateral"
-Explanation: Since all the sides are of equal length, therefore, it will form an equilateral triangle.
-Example 2:
+A triangle is classified as follows:
 
-Input: nums = [3,4,5]
-Output: "scalene"
-Explanation: 
-nums[0] + nums[1] = 3 + 4 = 7, which is greater than nums[2] = 5.
-nums[0] + nums[2] = 3 + 5 = 8, which is greater than nums[1] = 4.
-nums[1] + nums[2] = 4 + 5 = 9, which is greater than nums[0] = 3. 
-Since the sum of the two sides is greater than the third side for all three cases, therefore, it can form a triangle.
-As all the sides are of different lengths, it will form a scalene triangle.
- 
+- **Equilateral**: All sides are equal.
+- **Isosceles**: Exactly two sides are equal.
+- **Scalene**: All sides are of different lengths.
 
-Constraints:
+Return a string representing the **type of triangle** that can be formed:
 
-nums.length == 3
-1 <= nums[i] <= 100
+- `"equilateral"`  
+- `"isosceles"`  
+- `"scalene"`  
+
+Return `"none"` if the sides **cannot** form a valid triangle.
+
+A set of three numbers can form a triangle **only if the sum of any two sides is greater than the third side**.
+
+---
+
+#### 🧪 Examples
+
+**Example 1:**
+
+Input: nums = [3, 3, 3]
+Output: “equilateral”
+
+**Explanation:**  
+All sides are equal, so it forms an **equilateral** triangle.
+
+---
+
+**Example 2:**
+
+Input: nums = [3, 4, 5]
+Output: “scalene”
+
+**Explanation:**  
+- 3 + 4 = 7 > 5  
+- 3 + 5 = 8 > 4  
+- 4 + 5 = 9 > 3  
+
+All three triangle inequalities are satisfied. Since all sides are different, it forms a **scalene** triangle.
+
+---
+
+#### 🔒 Constraints
+
+- `nums.length == 3`  
+- `1 <= nums[i] <= 100`
