@@ -217,6 +217,7 @@ Leetcode         |[Find Numbers with Even Number of Digits][203]                
 Leetcode         |[Push Dominoes][204]                                                                  |![rb]
 Leetcode         |[Finding 3-Digit Even Numbers][205]                                                   |![rb]
 Leetcode         |[Total Characters in String After Transformations II][206]                            |![rb]
+Leetcode         |[Type of Triangle][207]                                                               |![rb]
 DailyRuby        |[Double Strings][1o]                                                                  |![rb]
 HackerRank       |[Plus Minus][1h]                                                                      |![rb]
 HackerRank       |[Min-Max Sum][2h]                                                                     |![rb]
@@ -450,6 +451,7 @@ Other            |[Largest Number][ot1]                                         
 [204]:Leetcode/push_dominoes/
 [205]:Leetcode/finding_3_digit_even_numbers/
 [206]:Leetcode/total_characters_in_string_after_transformations_II/
+[207]:Leetcode/type_of_triangle/
 
 [1o]:Other/double_string/
 
