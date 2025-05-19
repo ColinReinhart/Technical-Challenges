@@ -1,69 +1,79 @@
-3337. Total Characters in String After Transformations II
-Difficulty: Hard
-Topics: Hash Table, Math, String, Dynamic Programming, Counting
-Companies: Google
+### 3337. Total Characters in String After Transformations II
 
+**Difficulty:** Hard  
+**Topics:** Hash Table, Math, String, Dynamic Programming, Counting  
+**Companies:** Google  
 
-Hint
-You are given a string s consisting of lowercase English letters, an integer t representing the number of transformations to perform, and an array nums of size 26. In one transformation, every character in s is replaced according to the following rules:
+---
 
-Replace s[i] with the next nums[s[i] - 'a'] consecutive characters in the alphabet. For example, if s[i] = 'a' and nums[0] = 3, the character 'a' transforms into the next 3 consecutive characters ahead of it, which results in "bcd".
-The transformation wraps around the alphabet if it exceeds 'z'. For example, if s[i] = 'y' and nums[24] = 3, the character 'y' transforms into the next 3 consecutive characters ahead of it, which results in "zab".
-Return the length of the resulting string after exactly t transformations.
+#### 🧠 Problem
 
-Since the answer may be very large, return it modulo 109 + 7.
+You are given a string `s` consisting of lowercase English letters, an integer `t` representing the number of transformations to perform, and an array `nums` of size 26.
 
- 
+In one transformation, every character in `s` is replaced according to the following rules:
 
-Example 1:
+- Replace `s[i]` with the next `nums[s[i] - 'a']` consecutive characters in the alphabet.
+- The transformation wraps around the alphabet if it exceeds `'z'`.
 
-Input: s = "abcyy", t = 2, nums = [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2]
+For example:  
+- If `s[i] = 'a'` and `nums[0] = 3`, `'a'` becomes `"bcd"`.  
+- If `s[i] = 'y'` and `nums[24] = 3`, `'y'` becomes `"zab"`.
 
-Output: 7
+Return the **length** of the resulting string after exactly `t` transformations.
 
-Explanation:
+Since the answer may be very large, return it **modulo 10⁹ + 7**.
 
-First Transformation (t = 1):
+---
 
-'a' becomes 'b' as nums[0] == 1
-'b' becomes 'c' as nums[1] == 1
-'c' becomes 'd' as nums[2] == 1
-'y' becomes 'z' as nums[24] == 1
-'y' becomes 'z' as nums[24] == 1
-String after the first transformation: "bcdzz"
-Second Transformation (t = 2):
+#### 🧪 Examples
 
-'b' becomes 'c' as nums[1] == 1
-'c' becomes 'd' as nums[2] == 1
-'d' becomes 'e' as nums[3] == 1
-'z' becomes 'ab' as nums[25] == 2
-'z' becomes 'ab' as nums[25] == 2
-String after the second transformation: "cdeabab"
-Final Length of the string: The string is "cdeabab", which has 7 characters.
+**Example 1:**
 
-Example 2:
+Input:
+s = “abcyy”,
+t = 2,
+nums = [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2]
 
-Input: s = "azbk", t = 1, nums = [2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2]
+Output:
+7
 
-Output: 8
+**Explanation:**
 
-Explanation:
+- First Transformation (t = 1):  
+  `'a' → 'b'`, `'b' → 'c'`, `'c' → 'd'`, `'y' → 'z'`, `'y' → 'z'`  
+  Resulting string: `"bcdzz"`
 
-First Transformation (t = 1):
+- Second Transformation (t = 2):  
+  `'b' → 'c'`, `'c' → 'd'`, `'d' → 'e'`, `'z' → 'ab'`, `'z' → 'ab'`  
+  Resulting string: `"cdeabab"`
 
-'a' becomes 'bc' as nums[0] == 2
-'z' becomes 'ab' as nums[25] == 2
-'b' becomes 'cd' as nums[1] == 2
-'k' becomes 'lm' as nums[10] == 2
-String after the first transformation: "bcabcdlm"
-Final Length of the string: The string is "bcabcdlm", which has 8 characters.
+- Final Length: **7**
 
- 
+---
 
-Constraints:
+**Example 2:**
 
-1 <= s.length <= 105
-s consists only of lowercase English letters.
-1 <= t <= 109
-nums.length == 26
-1 <= nums[i] <= 25
+Input:
+s = “azbk”,
+t = 1,
+nums = [2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2]
+
+Output:
+8
+
+**Explanation:**
+
+- `'a' → 'bc'`, `'z' → 'ab'`, `'b' → 'cd'`, `'k' → 'lm'`  
+  Resulting string: `"bcabcdlm"`
+
+- Final Length: **8**
+
+---
+
+#### 🔒 Constraints
+
+- `1 <= s.length <= 10⁵`
+- `s` consists only of lowercase English letters
+- `1 <= t <= 10⁹`
+- `nums.length == 26`
+- `1 <= nums[i] <= 25`
