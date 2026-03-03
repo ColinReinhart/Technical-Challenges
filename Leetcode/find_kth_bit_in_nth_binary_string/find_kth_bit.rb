@@ -6,25 +6,24 @@ def find_kth_bit(n, k)
 
     if n > 1 
         (n - 1).times do
-            temp = []
+            temp = ""
             temp << sn
             temp << "1"
-
-            # Invert  and reverse Sn
-            wip = []
-            sn.split('').each do |bit|
+            
+            wip = ""
+            sn.split('').reverse_each do |bit|
                 if bit == "0"
                     wip << "1"
                 else
                     wip << "0"
                 end
             end
-            temp << wip.reverse
-            sn = temp.join
+            temp << wip
+            sn = temp
         end
     end
     
-    sn.split('')[k -1]
+    sn[k - 1]
 end
 
 p find_kth_bit( 3, 1) #"0"
